@@ -1,6 +1,6 @@
 <h1 align="center">
   <br>
-  <strong> Hadoop 集群配置安装 </strong>
+  <strong> Hadoop 配置指南 </strong>
   <br>
 </h1>
 
@@ -36,7 +36,7 @@
   
 ## 2. 软件安装
 - **VMware 虚拟机安装**  
-  这里我以Windows 11操作系统举例，[安装详情](https://spark.apache.org/downloads.html)。
+  这里我以Windows 11操作系统举例，具体步骤在[安装详情](.)。
 - **网络设置**  
 
 
