@@ -19,7 +19,7 @@
 
 ## 简介
 
-  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;本教程详细介绍了如何在本地 PC 上使用 VMware 虚拟机软件搭建 Hadoop 集群的完整过程，旨在帮助用户模拟真实的 Hadoop 安装环境，掌握 Hadoop 集群的搭建与管理技能。通过本教程，用户可以在单台物理机上创建多个虚拟机节点，构建一个完整的 Hadoop 分布式文件系统（HDFS）和计算框架（MapReduce/YARN），为后续的大数据学习与实践打下坚实基础。
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;本教程详细介绍了如何在本地 PC 上使用 VMware 虚拟机软件搭建 Hadoop 集群的完整过程，旨在帮助用户模拟真实的 Hadoop 安装环境，掌握 Hadoop 集群的搭建与管理技能。通过本教程，用户可以在单台物理机上创建多个虚拟机节点，构建一个完整的 Hadoop 分布式文件系统（HDFS）和计算框架（MapReduce/YARN），为后续的大数据学习与实践打下坚实基础。
 
 ## 1. 软件安装包准备
 
@@ -34,8 +34,16 @@
 - **Spark 软件**  
   通过[Spark 官网](https://spark.apache.org/downloads.html)下载并安装 Spark-3.5.7 版本的软件压缩包，可以根据实际情况选择适合自己电脑的版本。
   
-## 2. 单机环境配置
+## 2. 软件安装
+- **VMware 虚拟机安装**  
+  这里我以Windows 11操作系统举例，[安装详情](https://spark.apache.org/downloads.html)。
+- **网络设置**  
 
+
+
+
+
+## 2. 单机环境配置
 - **虚拟机创建与配置**  
   通过 VMware 创建多个虚拟机节点，模拟 Hadoop 集群中的不同服务器角色，详细讲解内存、CPU、磁盘等资源分配方案。
 - **网络设置**  
@@ -63,4 +71,7 @@
 - **集群扩展与管理**  
   讲解如何向现有集群中新增节点，以及集群监控与日常管理方法，满足规模扩展需求。
 
-  
+
+## 🔐 License
+
+This project is licensed under the **Apache License 2.0**.
