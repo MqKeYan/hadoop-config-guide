@@ -4,4 +4,4 @@
   <br>
 </h1>
 
-该文件夹为VMware Workstation pro 25H2安装过程图存放文件夹
+VMware Workstation pro 25H2 软件安装过程图存放文件夹
