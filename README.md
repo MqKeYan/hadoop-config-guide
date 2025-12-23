@@ -23,13 +23,13 @@
 ## 1. 环境准备与软件安装
 
 - **VMware 虚拟机安装**  
-  官网下载并安装 VMware Workstation 或 Pro 版本，为后续的虚拟机创建提供运行平台。
+  通过[VMware 官网](https://techdocs.broadcom.com/cn/zh-cn/vmware-cis/desktop-hypervisors/workstation-pro/17-0/using-vmware-workstation-pro.html)下载并安装 VMware Workstation 或 Pro 版本，为后续的虚拟机创建提供运行平台。
 - **操作系统选择**  
   推荐使用 CentOS 7 或 Ubuntu 等 Linux 发行版作为虚拟机操作系统，并提供详细的系统下载与安装步骤。
 - **JDK 与 Hadoop 安装包准备**  
   指导用户下载并配置 Java 开发工具包（JDK）及 Hadoop 安装包，确保运行环境依赖完整。
 - **Spark 安装包准备**  
-  通过[Spark 官网](https://spark.apache.org/downloads.html)下载 Spark 软件。
+  通过[Spark 官网](https://spark.apache.org/downloads.html)下载并安装 Spark 软件。
   
 ## 2. 单机环境配置
 
