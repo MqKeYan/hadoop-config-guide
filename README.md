@@ -4,8 +4,8 @@
   <br>
 </h1>
 
-[![License](https://img.shields.io/badge/License-MIT-green)](LICENSE)
-[![JAVA](https://img.shields.io/badge/Java-1.8-blue)](https://www.java.com/)
+[![License](https://img.shields.io/badge/License-ApacheV2.0-green)](LICENSE)
+[![JAVA](https://img.shields.io/badge/Java-11.0.29-blue)](https://www.java.com/)
 [![Eclipse](https://img.shields.io/badge/Eclipse-2025.12R-purple)](https://www.eclipse.org/)
 [![Hadoop](https://img.shields.io/badge/Hadoop-3.4.2-yellow)](https://hadoop.apache.org/)
 [![Spark](https://img.shields.io/badge/Spark-3.3.4-orange)](https://spark.apache.org/)
