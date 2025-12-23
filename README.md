@@ -23,14 +23,15 @@
 
 ## 1. 软件准备与安装
 
-- **VMware 虚拟机安装**  
-  通过[VMware 官网](https://techdocs.broadcom.com/cn/zh-cn/vmware-cis/desktop-hypervisors/workstation-pro/17-0/using-vmware-workstation-pro.html)下载并安装合适的 VMware Workstation 或 Pro 版本，这里我使用了 VMware Workstation Pro 25H2 版本。
-- **操作系统选择**  
-  推荐使用 CentOS 7 或 Ubuntu 等 Linux 发行版作为虚拟机操作系统，并提供详细的系统下载与安装步骤。
-- **JDK 与 Hadoop 安装包准备**  
+- **VMware 虚拟机**  
+  通过[VMware 官网](https://techdocs.broadcom.com/cn/zh-cn/vmware-cis/desktop-hypervisors/workstation-pro/17-0/using-vmware-workstation-pro.html)下载VMware Workstation Pro 25H2 的软件安装包，请根据实际情况选择合适的版本。
+- **操作系统 ISO**  
+  通过[CentOS 官网](https://hadoop.apache.org/releases.html)推荐使用 CentOS stream 10 发行版作为虚拟机操作系统，并提供详细的系统下载与安装步骤。
+- **JDK 与 Hadoop 安装包准备**
+  通过[Hadoop 官网](https://hadoop.apache.org/releases.html)下载并安装 Hadoop 软件压缩包
   指导用户下载并配置 Java 开发工具包（JDK）及 Hadoop 安装包，确保运行环境依赖完整。
 - **Spark 安装包准备**  
-  通过[Spark 官网](https://spark.apache.org/downloads.html)下载并安装 Spark 软件。
+  通过[Spark 官网](https://spark.apache.org/downloads.html)下载并安装 Spark 软件压缩包。
   
 ## 2. 单机环境配置
 
