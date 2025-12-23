@@ -4,6 +4,10 @@
   <br>
 </h1>
 
+![License](https://img.shields.io/badge/License-MIT-green)
+![Hadoop](https://img.shields.io/badge/Hadoop-3.4.2-yellow)
+![Spark](https://img.shields.io/badge/Spark-3.3.4-orange)
+
 <p align="center">
   Languages:
   <a href="./README.md">简体中文</a>
@@ -31,20 +35,20 @@
 - **SSH 无密码登录配置**  
   实现虚拟机节点之间的 SSH 无密码登录，简化集群管理操作流程，提高运维效率。
 
-  ## 3. Hadoop 集群搭建
+## 3. Hadoop 集群搭建
 
-  - **Hadoop 安装与配置**  
-  在各虚拟机节点上安装 Hadoop，并配置  
-  `core-site.xml`、`hdfs-site.xml`、`mapred-site.xml`、`yarn-site.xml`  
+- **Hadoop 安装与配置**  
+在各虚拟机节点上安装 Hadoop，并配置  
+`core-site.xml`、`hdfs-site.xml`、`mapred-site.xml`、`yarn-site.xml`  
   等关键配置文件，明确 NameNode、DataNode、ResourceManager、NodeManager 等角色。
 - **集群启动与测试**  
   指导用户完成 HDFS 格式化、HDFS 与 YARN 服务启动，并通过 Web UI 与命令行验证集群运行状态。
 - **集群优化与故障排查**  
   提供集群性能优化建议，以及常见故障的排查思路与解决方案。
 
-  ## 4. 高级功能与扩展
+## 4. 高级功能与扩展
 
-  - **HDFS 高级操作**  
+- **HDFS 高级操作**  
   介绍 HDFS 文件上传、下载、删除等基础操作，以及数据备份与恢复等进阶功能。
 - **MapReduce 编程实践**  
   通过示例程序引导用户编写 MapReduce 作业，深入理解分布式计算执行流程。
