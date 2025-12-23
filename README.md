@@ -5,8 +5,8 @@
 </h1>
 
 [![License](https://img.shields.io/badge/License-ApacheV2.0-green)](LICENSE)
-[![VMware](https://img.shields.io/badge/VMware-25H2-blue)](https://www.java.com/)
-[![JAVA](https://img.shields.io/badge/Java-11.0.29-blue)](https://www.java.com/)
+[![VMware](https://img.shields.io/badge/VMware-25H2-blue)](https://www.vmware.com/)
+[![Java](https://img.shields.io/badge/Java-11.0.29-blue)](https://www.java.com/)
 [![Eclipse](https://img.shields.io/badge/Eclipse-2025.12R-purple)](https://www.eclipse.org/)
 [![Hadoop](https://img.shields.io/badge/Hadoop-3.4.2-yellow)](https://hadoop.apache.org/)
 [![Spark](https://img.shields.io/badge/Spark-3.5.7-orange)](https://spark.apache.org/)
@@ -26,8 +26,8 @@
 - **VMware 虚拟机**  
   通过[VMware 官网](https://techdocs.broadcom.com/cn/zh-cn/vmware-cis/desktop-hypervisors/workstation-pro/17-0/using-vmware-workstation-pro.html)下载VMware Workstation Pro 25H2 的软件安装包，请根据实际情况选择合适的版本。
 - **操作系统 ISO**  
-  通过[CentOS 官网](https://hadoop.apache.org/releases.html)推荐使用 CentOS stream 10 发行版作为虚拟机操作系统，并提供详细的系统下载与安装步骤。
-- **JDK 与 Hadoop 安装包准备**
+  通过[CentOS 官网](https://www.centos.org/download)下载 CentOS stream 10的 ISO 镜像作为虚拟机操作系统，注意选择适合自己电脑版本的 ISO 镜像。
+- **JDK 与 Hadoop 安装包准备**  
   通过[Hadoop 官网](https://hadoop.apache.org/releases.html)下载并安装 Hadoop 软件压缩包
   指导用户下载并配置 Java 开发工具包（JDK）及 Hadoop 安装包，确保运行环境依赖完整。
 - **Spark 安装包准备**  
