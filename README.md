@@ -12,7 +12,8 @@
 
 <p align="center">
   Languages:
-  <a href="./README.md">简体中文</a>
+  <a href="./README.md"> 简体中文 </a> ·
+  <a href="./docs/README_en.md"> 英文 </a>
 </p>
 
 ## 简介
