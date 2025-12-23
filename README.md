@@ -4,9 +4,9 @@
   <br>
 </h1>
 
-![License](https://img.shields.io/badge/License-MIT-green)
-![Hadoop](https://img.shields.io/badge/Hadoop-3.4.2-yellow)
-![Spark](https://img.shields.io/badge/Spark-3.3.4-orange)
+[![License](https://img.shields.io/badge/License-MIT-green)](LICENSE)
+[![Hadoop](https://img.shields.io/badge/Hadoop-3.4.2-yellow)](https://hadoop.apache.org/)
+[![Spark](https://img.shields.io/badge/Spark-3.3.4-orange)](https://spark.apache.org/)
 
 <p align="center">
   Languages:
