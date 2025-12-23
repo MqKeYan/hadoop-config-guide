@@ -5,6 +5,7 @@
 </h1>
 
 [![License](https://img.shields.io/badge/License-ApacheV2.0-green)](LICENSE)
+[![VMware](https://img.shields.io/badge/VMware-25H2-blue)](https://www.java.com/)
 [![JAVA](https://img.shields.io/badge/Java-11.0.29-blue)](https://www.java.com/)
 [![Eclipse](https://img.shields.io/badge/Eclipse-2025.12R-purple)](https://www.eclipse.org/)
 [![Hadoop](https://img.shields.io/badge/Hadoop-3.4.2-yellow)](https://hadoop.apache.org/)
@@ -20,10 +21,10 @@
 
   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;本教程详细介绍了如何在本地PC上使用VMware虚拟机软件搭建Hadoop集群的完整过程，旨在帮助用户模拟真实的Hadoop安装环境，掌握Hadoop集群的搭建与管理技能。通过本教程，用户可以在单台物理机上创建多个虚拟机节点，构建一个完整的Hadoop分布式文件系统（HDFS）和计算框架（MapReduce/YARN），为后续的大数据学习与实践打下坚实基础。该方案无需真实物理服务器集群，通过虚拟化技术模拟多台独立节点，降低硬件成本与运维复杂度，帮助用户高效掌握Hadoop生态的部署流程。
 
-## 1. 环境准备与软件安装
+## 1. 软件准备与安装
 
 - **VMware 虚拟机安装**  
-  通过[VMware 官网](https://techdocs.broadcom.com/cn/zh-cn/vmware-cis/desktop-hypervisors/workstation-pro/17-0/using-vmware-workstation-pro.html)下载并安装 VMware Workstation 或 Pro 版本，为后续的虚拟机创建提供运行平台。
+  通过[VMware 官网](https://techdocs.broadcom.com/cn/zh-cn/vmware-cis/desktop-hypervisors/workstation-pro/17-0/using-vmware-workstation-pro.html)下载并安装合适的 VMware Workstation 或 Pro 版本，这里我使用了 VMware Workstation Pro 25H2 版本。
 - **操作系统选择**  
   推荐使用 CentOS 7 或 Ubuntu 等 Linux 发行版作为虚拟机操作系统，并提供详细的系统下载与安装步骤。
 - **JDK 与 Hadoop 安装包准备**  
