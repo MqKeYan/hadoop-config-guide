@@ -5,8 +5,8 @@
 </h1>
 
 <p align="center">
-  <a href="LICENSE"><img src="https://img.shields.io/badge/License-ApacheV2.0-green"></a>
-  <a href="https://www.vmware.com/"><img src="https://img.shields.io/badge/VMware-25H2-blue"></a>
+  <a href="LICENSE"><img src="https://img.shields.io/badge/License-ApacheV2.0-blue"></a>
+  <a href="https://www.vmware.com/"><img src="https://img.shields.io/badge/VMware-25H2-orange"></a>
   <a href="https://www.java.com/"><img src="https://img.shields.io/badge/Java-11.0.29-blue"></a>
   <a href="https://www.eclipse.org/"><img src="https://img.shields.io/badge/Eclipse-2025.12R-purple"></a>
   <a href="https://hadoop.apache.org/"><img src="https://img.shields.io/badge/Hadoop-3.4.2-yellow"></a>
@@ -15,11 +15,13 @@
   <a href="https://www.xftp.com/"><img src="https://img.shields.io/badge/Xftp-8.0-green"></a>
 </p>
 
-
 <p align="center">
   Languages:
   <a href="./README.md"> 简体中文 </a> ·
   <a href="./docs/README_en.md"> English </a>
+  <br>
+  <strong> 注：除了简体中文以外的语言使用了机器翻译 </strong>
+  </br>
 </p>
 
 ## 简介
