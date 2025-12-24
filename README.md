@@ -6,7 +6,8 @@
 
 <p align="center">
   <a href="LICENSE"><img src="https://img.shields.io/badge/License-ApacheV2.0-blue"></a>
-  <a href="https://www.vmware.com/"><img src="https://img.shields.io/badge/VMware-25H2-orange"></a>
+  <a href="https://www.vmware.com/"><img src="https://img.shields.io/badge/VMware-25H2-yello"></a>
+  <a href="https://www.xftp.com/"><img src="https://img.shields.io/badge/Linux-8.0-green"></a>
   <a href="https://www.java.com/"><img src="https://img.shields.io/badge/Java-11.0-blue"></a>
   <a href="https://www.eclipse.org/"><img src="https://img.shields.io/badge/Eclipse-2025.12R-purple"></a>
   <a href="https://hadoop.apache.org/"><img src="https://img.shields.io/badge/Hadoop-3.4.2-yellow"></a>
@@ -30,37 +31,38 @@
 
 ## 简介
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;本教程详细介绍了如何在本地 PC 上使用 VMware 虚拟机软件搭建 Hadoop 集群的完整过程，旨在帮助用户模拟真实的 Hadoop 安装环境，掌握 Hadoop 集群的搭建与管理技能。通过本教程，用户可以在单台物理机上创建多个虚拟机节点，构建一个完整的 Hadoop 分布式文件系统（HDFS）和计算框架（MapReduce/YARN），为后续的大数据学习与实践打下坚实基础。
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;本教程详细介绍了如何在本地 PC 上使用 VMware Workstation 软件搭建 Hadoop 集群的完整过程，旨在帮助用户模拟真实的 Hadoop 安装环境，掌握 Hadoop 集群的搭建与管理技能。通过本教程，用户可以在单台物理机上创建多个虚拟机节点，构建一个完整的 Hadoop 分布式文件系统（HDFS）和计算框架（MapReduce/YARN），为后续的大数据学习与实践打下坚实基础。
 
 ## 1. 软件安装包准备
 
 - **VMware 虚拟机**  
-  通过[VMware 官网](https://techdocs.broadcom.com/cn/zh-cn/vmware-cis/desktop-hypervisors/workstation-pro/17-0/using-vmware-workstation-pro.html)下载VMware Workstation Pro 25H2 的软件安装包（该版本的软件只有英文，后面对该软件的操作也将采用英文指导），可以根据实际情况选择适合自己电脑的版本。
+  通过[VMware 官网](https://techdocs.broadcom.com/cn/zh-cn/vmware-cis/desktop-hypervisors/workstation-pro/17-0/using-vmware-workstation-pro.html)下载VMware Workstation Pro 25H2 的软件安装包（该版本的软件只有英文，后面对该软件的操作也将采用英文指导）。
 - **操作系统镜像 ISO**  
-  通过[CentOS 官网](https://www.centos.org/download)下载 CentOS stream 10的 ISO 镜像作为虚拟机的操作系统，可以根据实际情况选择适合自己电脑的镜像。
+  通过[CentOS 官网](https://www.centos.org/download)下载 CentOS stream 10的 ISO 镜像作为虚拟机的操作系统。
 - **Hadoop 软件**  
-  通过[Hadoop 官网](https://hadoop.apache.org/releases.html)下载 Hadoop-3.4.2 版本的软件压缩包，可以根据实际情况选择适合自己电脑的版本。
+  通过[Hadoop 官网](https://hadoop.apache.org/releases.html)下载 Hadoop-3.4.2 版本的软件压缩包。
 - **JDK 软件**  
-  通过[Java 官网](https://www.oracle.com/cn/java/technologies/downloads/)下载 Java-11.0.29 版本的软件压缩包，可以根据实际情况选择适合自己电脑的版本。
+  通过[Java 官网](https://www.oracle.com/cn/java/technologies/downloads/)下载 Java-11.0.29 版本的软件压缩包。
 - **Spark 软件**  
-  通过[Spark 官网](https://spark.apache.org/downloads.html)下载并安装 Spark-3.5.7 版本的软件压缩包，可以根据实际情况选择适合自己电脑的版本。
+  通过[Spark 官网](https://spark.apache.org/downloads.html)下载并安装 Spark-3.5.7 版本的软件压缩包。
 - **Xshell 软件**  
-  通过[Xshell 官网](https://www.xshell.com/zh/free-for-home-school/)下载并安装 Xshell-8.0 版本的软件压缩包，可以根据实际情况选择适合自己电脑的版本。
+  通过[Xshell 官网](https://www.xshell.com/zh/free-for-home-school/)下载并安装 Xshell-8.0 版本的软件压缩包。
 - **Xftp 软件**  
-  通过[Xftp 官网](https://www.xshell.com/zh/free-for-home-school/)下载并安装 Xftp-8.0 版本的软件压缩包，可以根据实际情况选择适合自己电脑的版本。
+  通过[Xftp 官网](https://www.xshell.com/zh/free-for-home-school/)下载并安装 Xftp-8.0 版本的软件压缩包。
 
-**注**：安装包推荐选择上面的版本，也可以根据情况选择最新版本，选择新版本的时候要注意软件之间的兼容度。上面的最新版本的版本号统计截止2025年12月24日。
+**注**：安装包推荐选择上面的版本，可以根据实际情况选择适合自己电脑的版本，选择新版本的时候要注意软件之间的兼容度。上面的最新版本的版本号统计截止2025年12月24日。
 
-## 2. 软件安装
+## 2. 前期准备
 - **VMware 虚拟机安装**  
-  这里以 Windows 11 25H2 操作系统为例，在新版本的 Windows 11 操作系统中对 VMware 有版本要求，推荐使用17.0版本及其之后的版本，软件操作比较简单主要作为载体，所以软件汉化与否影响不大。具体步骤请参考[虚拟机安装详情](.)。
-- **网络设置**
-  通过手动配置虚拟机的IP地址，可以避免出现因为电脑IP地址被占用导致主机无法连接至虚拟机的问题，
+  以 Windows 11 25H2 操作系统为例，在新版本的 Windows 11 操作系统中对 VMware 有版本要求，推荐使用17.0版本及其之后的版本，软件操作比较简单主要作为载体，所以软件汉化与否影响不大。具体步骤请参考[虚拟机安装详情](manual/VMware%20Installation.md)。
+- **虚拟网络配置**  
+  在 VMware Workstation 中通过虚拟网络编辑器手动配置虚拟机的IP地址，避免出现因为IP地址被占用而导致主机无法正常与虚拟机通信的问题。具体步骤请参考[虚拟网络配置详情](manual/.md)。
+- **操作系统安装**  
+  安装 CentOS 10 操作系统，创建和部署基于 Linux 环境的虚拟化应用程序。具体步骤请参考[操作系统安装](manual/.md)。
+- **Xshell 与 Xftp**  
+  Xshell 能提供`远程终端管理`和`命令行操作`，方便在主机中操作虚拟机；而 Xftp 能够提供`文件传输`，方便在主机与虚拟机之间进行文件传输。
 
-
-
-
-## 2. 单机环境配置
+## 3. 单机环境配置
 - **虚拟机创建与配置**  
   通过 VMware 创建多个虚拟机节点，模拟 Hadoop 集群中的不同服务器角色，详细讲解内存、CPU、磁盘等资源分配方案。
 - **网络设置**  
