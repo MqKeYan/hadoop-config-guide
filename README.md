@@ -111,12 +111,18 @@
   配置 HDFS 高可用（HA）、NameNode 自动故障切换及快照机制，保证关键数据持久化与任务容错能力。
 - **扩展组件集成**  
   将 Hive、HBase、Kafka 等组件与 Hadoop/Spark 集群集成，支持大数据存储、流处理和实时计算功能扩展。
-- **数据可视化与报表生成**  
+- **作业调度与自动化**  
   集成 Matplotlib、Seaborn、Plotly 或 Zeppelin、Jupyter 等工具，将分析结果可视化，实现实验数据直观展示与报告生成。
-- **多语言支持**  
-  支持 Java、Scala、Python 等多种开发语言，便于不同背景的用户快速开发 Spark 作业或 MapReduce 程序。
-  - **实验自动化与 CI/CD**  
-  集成 Matplotlib、Seaborn、Plotly 或 Zeppelin、Jupyter 等工具，将分析结果可视化，实现实验数据直观展示与报告生成。
+- **多租户与资源隔离**  
+  配置 YARN 容器队列、多租户隔离策略及资源池管理，实现多业务同时运行而互不影响，提升集群利用率。
+- **日志管理与审计**  
+  集中收集 Hadoop/Spark 日志，通过 ELK（Elasticsearch + Logstash + Kibana）或 Splunk 做日志分析和审计，便于故障定位与合规管理。
+- **数据质量管理**  
+  使用 Apache Griffin 或自定义校验规则，对数据源进行完整性、准确性和一致性检查，保证生产数据可靠性。
+- **性能基准测试**  
+  定期使用 TeraSort、HiBench 等基准测试工具评估集群性能，检测性能瓶颈并指导扩容或优化策略。
+- **灾备与跨机房部署**  
+  配置异地备份、跨机房 Hadoop 集群同步，确保关键业务在硬件或网络故障情况下仍能正常运行。
 
 ## 讨论与交流
 
