@@ -19,11 +19,13 @@
   Languages:
   <a href="./README.md"> 简体中文 </a> ·
   <a href="./docs/README_en.md"> English </a>
-  </br>
-  <br>
+</p>
+
+<p align="center">
   <strong> 注：除了简体中文以外的语言使用了机器翻译,目前正在完善简体中文版本，完成后将会依次完成其他语言 </strong>
-  </br>
+  <br>
   <strong> Note: Languages other than Simplified Chinese are currently machine-translated. The Simplified Chinese version is being actively refined; once completed, other language versions will be updated accordingly. </strong>
+  </br>
 </p>
 
 ## 简介
