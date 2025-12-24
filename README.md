@@ -7,7 +7,7 @@
 <p align="center">
   <a href="LICENSE"><img src="https://img.shields.io/badge/License-ApacheV2.0-blue"></a>
   <a href="https://www.vmware.com/"><img src="https://img.shields.io/badge/VMware-25H2-orange"></a>
-  <a href="https://www.java.com/"><img src="https://img.shields.io/badge/Java-11.0.29-blue"></a>
+  <a href="https://www.java.com/"><img src="https://img.shields.io/badge/Java-11.0-blue"></a>
   <a href="https://www.eclipse.org/"><img src="https://img.shields.io/badge/Eclipse-2025.12R-purple"></a>
   <a href="https://hadoop.apache.org/"><img src="https://img.shields.io/badge/Hadoop-3.4.2-yellow"></a>
   <a href="https://spark.apache.org/"><img src="https://img.shields.io/badge/Spark-3.5.7-orange"></a>
