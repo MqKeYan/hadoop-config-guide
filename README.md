@@ -1,6 +1,6 @@
 <h1 align="center">
   <br>
-  <strong> Hadoop 配置指南 </strong>
+  <strong> Hadoop 集群配置指南 </strong>
   <br>
 </h1>
 
@@ -22,9 +22,9 @@
 </p>
 
 <p align="center">
-  <strong> 注：除了简体中文以外的语言使用了机器翻译,目前正在完善简体中文版本，完成后将会依次完成其他语言 </strong>
+  <strong> 注：该文件为编辑状态，暂未完成编辑。简体中文以外的语言均使用机器翻译，若有翻译不到位的情况还请指点。待简体中文版本编辑完成后将会依次完成其他语言，非常感谢 </strong>
   <br>
-  <strong> Note: Languages other than Simplified Chinese are currently machine-translated. The Simplified Chinese version is being actively refined; once completed, other language versions will be updated accordingly. </strong>
+  <strong> Note: This file is in an editing state and has not been completed yet. Languages other than Simplified Chinese are machine-translated. If there are any inaccuracies in the translation, please feel free to point them out. Once the Simplified Chinese version is completed, other language versions will be completed in sequence. Thank you very much! </strong>
   </br>
 </p>
 
@@ -45,9 +45,11 @@
 - **Spark 软件**  
   通过[Spark 官网](https://spark.apache.org/downloads.html)下载并安装 Spark-3.5.7 版本的软件压缩包，可以根据实际情况选择适合自己电脑的版本。
 - **Xshell 软件**  
-  通过[Xshell 官网](https://www.xshell.com/zh/free-for-home-school/)下载并安装 Spark-3.5.7 版本的软件压缩包，可以根据实际情况选择适合自己电脑的版本。
+  通过[Xshell 官网](https://www.xshell.com/zh/free-for-home-school/)下载并安装 Xshell-8.0 版本的软件压缩包，可以根据实际情况选择适合自己电脑的版本。
 - **Xftp 软件**  
-  通过[Xftp 官网](https://www.xshell.com/zh/free-for-home-school/)下载并安装 Spark-3.5.7 版本的软件压缩包，可以根据实际情况选择适合自己电脑的版本。
+  通过[Xftp 官网](https://www.xshell.com/zh/free-for-home-school/)下载并安装 Xftp-8.0 版本的软件压缩包，可以根据实际情况选择适合自己电脑的版本。
+
+**注**：安装包推荐选择上面的配置版本，也可以根据情况选择最新版本，选择新版本的时候要注意软件之间的兼容度。上面的最新版本的版本号统计截止2025年12月24日。
 
 ## 2. 软件安装
 - **VMware 虚拟机安装**  
