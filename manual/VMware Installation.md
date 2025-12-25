@@ -6,8 +6,8 @@
 
 <p align="center">
   Languages:
-  <a href="./VMware_Installation.md"> 简体中文 </a> ·
-  <a href="./VMware_Installation_en.md"> English </a>
+  <a href="./VMware%20Installation.md"> 简体中文 </a> ·
+  <a href="./VMware%20Installation_en.md"> English </a>
 </p>
 
 1. **启动安装程序**  
