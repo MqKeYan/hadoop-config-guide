@@ -60,5 +60,5 @@
 
 ---
 <p align="center">
-  <a href="../docs/README_en.md"><strong>Back to Root (English)</strong></a>
+  <a href="../docs/README_en.md"><strong> Back to Home </strong></a>
 </p>
