@@ -1,0 +1,16 @@
+虚拟机安装 = VMware Installation Diagram
+操作系统安装 = ISO Installation Diagram
+Xshell 与 Xftp 安装 = Xshell and Xftp Installation Diagram
+虚拟机克隆 = Server Cloning Diagram
+虚拟网络配置 = Virtual Network Editor Diagram
+集群基础配置 = Basic Cluster Configuration Diagram
+文件导入 = Data Import Diagram
+SSH 配置 = SSH Configuration Diagram
+Eclipse 安装 = Eclipse Installation Diagram
+Hadoop 安装 = Hadoop Installation Diagram
+Hadoop 基础配置 = Hadoop Basic Configuration Diagram
+Hadoop 验证 = Hadoop Validation Diagram
+Spark 安装 = Spark Installation Diagram
+Spark 基础配置 = Spark Basic Configuration Diagram
+Spark on YARN 集成配置 = Spark on YARN Integration
+Spark 验证 = Spark Validation Diagram
