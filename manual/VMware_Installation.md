@@ -60,5 +60,5 @@
 
 ---
 <p align="center">
-  <a href="../README.md"><strong>返回根目录（中文）</strong></a>
+  <a href="../README.md"><strong> 返回主页 </strong></a>
 </p>
