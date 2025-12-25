@@ -57,3 +57,8 @@
 <p align="center">
   <img src="../image/VMware%20Installation%20diagram/P8.png" width="60%">
 </p>
+
+---
+<p align="center">
+  <a href="../README.md"><strong>返回根目录（中文）</strong></a>
+</p>
