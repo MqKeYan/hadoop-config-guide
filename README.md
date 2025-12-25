@@ -57,7 +57,7 @@
 - **VMware 虚拟机安装**  
   以 Windows 11 25H2 操作系统为例，在新版本的 Windows 11 操作系统中对 VMware 有版本要求，推荐使用17.0版本及其之后的版本，软件操作比较简单主要作为载体，所以软件汉化与否影响不大。具体步骤请参考[虚拟机安装详情](manual/VMware%20Installation.md)。
 - **操作系统安装**  
-  安装 CentOS 10 操作系统，创建和部署基于 Linux 环境的虚拟化应用程序。具体步骤请参考[操作系统安装详情](manual/.md)。
+  安装 CentOS 10 操作系统，创建和部署基于 Linux 环境的虚拟化应用程序。具体步骤请参考[操作系统安装详情](manual/VMware_Installation.md)。
 - **Xshell 与 Xftp 安装**  
   Xshell 能提供`远程终端管理`和`命令行操作`，方便在主机中操作虚拟机；而 Xftp 能够提供`文件传输`，方便在主机与虚拟机之间进行文件传输。具体步骤请参考[Xshell 安装详情](manual/.md)。
 
