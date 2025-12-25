@@ -57,3 +57,8 @@
 <p align="center">
   <img src="../image/VMware%20Installation%20diagram/P8.png" width="60%">
 </p>
+
+---
+<p align="center">
+  <a href="../docs/README_en.md"><strong>Back to Root (English)</strong></a>
+</p>
