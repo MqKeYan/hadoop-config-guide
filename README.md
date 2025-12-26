@@ -75,7 +75,7 @@
 - **文件导入**  
   使用Xftp将`Hadoop`、`Spark`和`Java`等的压缩包传入服务器的根目录。具体步骤请参考[文件导入详情](manual/.md)。
 - **SSH 配置**  
-  通过配置 SSH 可以实现服务器之间的 SSH 无密码登录，简化集群管理操作流程同时提高运维效率。具体步骤请参考[SSH 配置详情](manual/SSH%20Configuration.md)。
+  通过配置 SSH 可以实现服务器之间的 SSH 无密码登录，简化集群管理操作流程同时提高运维效率。具体步骤请参考[SSH 配置详情](manual/)。
 - **Eclipse 安装**  
   在主机上安装 Eclipse 集成开发环境，用于后续 Hadoop 与 Spark 项目的开发、调试与运行。[Xshell 安装详情](manual/.md)。
 
