@@ -23,7 +23,7 @@
 </p>
 
 <p align="center">
-  <strong> 注：该文件为编辑状态，暂未完成编辑。简体中文以外的语言均使用机器翻译，若有翻译不到位的情况还请指点。待简体中文版本编辑完成后将会依次完成其他语言，非常感谢 </strong>
+  <strong> 注：该文件为编辑状态，暂未完成编辑。简体中文以外的语言均使用机器翻译，若有翻译不到位的情况还请指点。待简体中文版本编辑完成后将会依次完成其他语言，非常感谢!如果作者不在没更新那就是去打卡丘了喵~请耐心等待或私信喵! </strong>
   <br>
   <strong> Note: This file is in an editing state and has not been completed yet. Languages other than Simplified Chinese are machine-translated. If there are any inaccuracies in the translation, please feel free to point them out. Once the Simplified Chinese version is completed, other language versions will be completed in sequence. Thank you very much! </strong>
   </br>
@@ -75,7 +75,7 @@
 - **文件导入**  
   使用Xftp将`Hadoop`、`Spark`和`Java`等的压缩包传入服务器的根目录。具体步骤请参考[文件导入详情](manual/.md)。
 - **SSH 配置**  
-  通过配置 SSH 可以实现服务器之间的 SSH 无密码登录，简化集群管理操作流程同时提高运维效率。具体步骤请参考[SSH 配置详情](manual/)。
+  通过配置 SSH 可以实现服务器之间的 SSH 无密码登录，简化集群管理操作流程同时提高运维效率。具体步骤请参考[SSH 配置详情](manual/SSH%20Configuration%20Diagram.md)。
 - **Eclipse 安装**  
   在主机上安装 Eclipse 集成开发环境，用于后续 Hadoop 与 Spark 项目的开发、调试与运行。[Xshell 安装详情](manual/.md)。
 
