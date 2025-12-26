@@ -71,11 +71,11 @@
 - **集群基础配置**  
   将第1台服务器作为集群的主机，其余2台服务器作为集群的子机，然后对服务器进行集群基础配置。具体步骤请参考[集群基础配置详情](manual/.md)。
 - **Xshell 与 Xftp 配置**  
-  。分别将 Xshell 与 Xftp 连接至服务器，为后续操作做准备。具体步骤请参考[Xshell 与 Xftp 配置详情](manual/.md)。
+  分别将 Xshell 与 Xftp 连接至服务器，为后续操作做准备。具体步骤请参考[Xshell 与 Xftp 配置详情](manual/.md)。
 - **文件导入**  
   使用Xftp将`Hadoop`、`Spark`和`Java`等的压缩包传入服务器的根目录。具体步骤请参考[文件导入详情](manual/.md)。
 - **SSH 配置**  
-  通过配置 SSH 可以实现服务器之间的 SSH 无密码登录，简化集群管理操作流程同时提高运维效率。具体步骤请参考[SSH 配置详情](manual/.md)。
+  通过配置 SSH 可以实现服务器之间的 SSH 无密码登录，简化集群管理操作流程同时提高运维效率。具体步骤请参考[SSH 配置详情](manual/SSH%20Configuration.md)。
 - **Eclipse 安装**  
   在主机上安装 Eclipse 集成开发环境，用于后续 Hadoop 与 Spark 项目的开发、调试与运行。[Xshell 安装详情](manual/.md)。
 
