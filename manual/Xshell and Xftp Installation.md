@@ -10,38 +10,43 @@
   <a href="./Xshell%20and%20Xftp%20Installation_en.md"> English </a>
 </p>
 
+## Xshell 安装
+
 1. **启动安装程序**  
-   双击软件包启动 Xshell 的安装程序，然后点击`Next`进入下一步。操作如图：
+   双击软件包启动 Xshell 的安装程序，然后点击`下一步`按钮进入下一步。操作如图：
 <p align="center">
   <img src="../image/Xshell%20and%20Xftp%20Installation%20Diagram/P1.png" width="60%">
 </p>
 
 2. **接受许可协议**  
-   勾选`I accept the terms in the Lincense Agreement`的勾选框同意软件的用户协议，然后点击`Next`进入下一步，操作如图：
+   勾选`我接受许可证协议中的条款`的勾选框，同意软件的用户协议，然后点击`下一步`按钮进入下一步。操作如图：
+<p align="center">
+  <img src="../image/Xshell%20and%20Xftp%20Installation%20Diagram/P2.png" width="60%">
+</p>
 
+3. **选择安装位置**  
+   可以选择默认安装位置不做修改，也可以根据实际情况修改安装的位置（点击`浏览`按钮选择安装位置），然后点击`下一步`按钮进入下一步。操作如图：
+<p align="center">
+  <img src="../image/Xshell%20and%20Xftp%20Installation%20Diagram/P3.png" width="60%">
+</p>
 
-3. **兼容性设置**  
-   忽略提示`在主机未检测到Hyper-V`的提示，直接点击`Next`进入下一步，操作如图：
+4. **快捷方式设置**  
+   直接点击`下一步`按钮进入下一步，这里不用修改。操作如图：
+<p align="center">
+  <img src="../image/Xshell%20and%20Xftp%20Installation%20Diagram/P4.png" width="60%">
+</p>
 
+5. **完成安装**  
+   根据实际情况选择勾选`Xshell 8 Personal 运行`的勾选框，点击`完成`按钮完成安装。操作如图：
+<p align="center">
+  <img src="../image/Xshell%20and%20Xftp%20Installation%20Diagram/P5.png" width="60%">
+</p>
 
-4. **安装位置设置**  
-   可以选择默认安装位置不做修改，也可以根据实际情况修改安装的位置，然后点击`Next`进入下一步，操作如图：
-
-
-5. **用户体验设置**  
-   取消勾选第一个勾选框，也可以根据实际情况修改(第一个是启动时检测更新，第二个是加入用户改进计划)，然后点击`Next`进入下一步，操作如图：
-
-
-6. **快捷方式设置**  
-   默认勾选两个勾选框，也可以根据实际情况修改(第一个是桌面，第二个是开始菜单)，然后点击`Next`进入下一步，操作如图：
-
-
-7. **确认安装**  
-   直接点击`Install`进入安装，也可以点击`back`返回前面的设置，或者点击`Cancel`取消安装，操作如图：
-
-
-8. **退出安装向导**  
-   直接点击`Finish`退出安装向导完成安装，操作如图：
+6. **免费许可**  
+   输入一个用户名和一个可以接收邮件的邮箱号，点击`提交`按钮完成注册，在邮箱里面找到激活邮件并根据提示完成激活，完成后点击`后来`按钮退出安装程序。操作如图：
+<p align="center">
+  <img src="../image/Xshell%20and%20Xftp%20Installation%20Diagram/P6.png" width="60%">
+</p>
 
 ---
 <p align="center">
