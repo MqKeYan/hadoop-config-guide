@@ -16,19 +16,19 @@
   <img src="../image/ISO%20Installation%20Diagram/P1.png" width="80%">
 </p>
 
-2. **创建模式**  
+2. **创建模式设置**  
    勾选第一个`Typical`（典型）的勾选框，默认推荐该方式进行创建，只需要简单设置就能创建一台虚拟机做服务器的主机。操作如图：
 <p align="center">
   <img src="../image/ISO%20Installation%20Diagram/P2.png" width="60%">
 </p>
 
-3. **安装来源**  
+3. **安装来源设置**  
    勾选`Installer disc image file(iso):`的勾选框，然后点击`Browse`按钮，从文件管理系统中选择之前下载的 ISO 系统镜像作为系统的安装来源。操作如图：
 <p align="center">
   <img src="../image/ISO%20Installation%20Diagram/P3.png" width="60%">
 </p>
 
-4. **名称与安装位置**  
+4. **名称与安装位置设置**  
    在`Virtual machine name`（虚拟机名称）下面的框格输入`HadoopMaster`作为虚拟机的名称，然后在`Location`（位置）下面的框格中点击`Browse`按钮选择安装的位置，尽可能选择剩余空间大的位置作为安装位置。操作如图：
 <p align="center">
   <img src="../image/ISO%20Installation%20Diagram/P4.png" width="60%">
@@ -40,7 +40,7 @@
   <img src="../image/ISO%20Installation%20Diagram/P5.png" width="60%">
 </p>
 
-6. **硬件详情**  
+6. **硬件详情设置**  
    点击`Customize Hardware`（自定义硬件）进入硬件详情设置。操作如图：
 <p align="center">
   <img src="../image/ISO%20Installation%20Diagram/P6.png" width="60%">
@@ -64,20 +64,53 @@
 9. **网络适配器设置**  
    点击左边的`Network Adapter`进入网络适配器设置，勾选`Connect power on`(接通电源时连接)启用，确保启动虚拟机就能自动连接，勾选`Custom: Specific virtual network`（自定义特定虚拟网络）模式，选择`VMnet8(NAT)`模式，确保后面本地 PC 能与虚拟机正常连接，点击右下角`Close`关闭自定义硬件的设置界面完成设置。操作如图：
 <p align="center">
-  <img src="../image/ISO%20Installation%20Diagram/P10.png" width="80%">
+  <img src="../image/ISO%20Installation%20Diagram/P10.png" width="60%">
 </p>
 
 10. **启动虚拟机**  
    勾选下面的`Power on this virtual machine after creation`（创建后打开虚拟机电源），可以根据实际情况进行勾选，点击`Finish`完成配置。如果勾选了上面的创建后打开电源，虚拟机会自动启动；如果没有勾选，需要点击`Power on this virtual machine`手动启动虚拟机。操作如图：
 <p align="center">
-  <img src="../image/ISO%20Installation%20Diagram/P6.png" width="80%">
+  <img src="../image/ISO%20Installation%20Diagram/P6.png" width="60%">
 </p>
 <p align="center">
   <img src="../image/ISO%20Installation%20Diagram/P11.png" width="80%">
 </p>
 
-11. **安装模式**  
+11. **系统安装模式设置**  
    鼠标随便点击虚拟机界面任意位置从本地PC进入虚拟机界面后才能用方向键进行选择，用方向键选择`Install CentOS Stream 10`然后回车进入安装。操作如图：
 <p align="center">
   <img src="../image/ISO%20Installation%20Diagram/P12.png" width="80%">
+</p>
+
+12. **语言设置**  
+   根据自己想要使用的语言进行选择。操作如图：
+<p align="center">
+  <img src="../image/ISO%20Installation%20Diagram/P13.png" width="80%">
+</p>
+
+13. **Root 账户**  
+   点击`Root 账户`进入账户信息设置，勾选`启用 Root 账户`并设置密码，教学环境推荐设置简单密码防止忘记。点击`完成`按钮完成设置，可能需要双击。操作如图：
+<p align="center">
+  <img src="../image/ISO%20Installation%20Diagram/P14.png" width="80%">
+</p>
+<p align="center">
+  <img src="../image/ISO%20Installation%20Diagram/P15.png" width="80%">
+</p>
+
+14. **创建用户**  
+    设置用户的名称，全名和用户名保持一致，该账户为系统的登录账户。勾选`为此用户账户添加管理权限（wheel组成员）`和`需要密码才能使用该账户`。在教学环境中可以设置该用户密码和 Root 账户的密码一致，防止忘记密码。点击`完成`按钮完成设置，可能需要双击。操作如图：
+<p align="center">
+  <img src="../image/ISO%20Installation%20Diagram/P14.png" width="80%">
+</p>
+<p align="center">
+  <img src="../image/ISO%20Installation%20Diagram/P16.png" width="80%">
+</p>
+
+15. **安装位置**  
+    直接点击`完成`按钮完成设置，可能需要双击，该选项保持默认即可。操作如图：
+<p align="center">
+  <img src="../image/ISO%20Installation%20Diagram/P14.png" width="80%">
+</p>
+<p align="center">
+  <img src="../image/ISO%20Installation%20Diagram/P17.png" width="80%">
 </p>
