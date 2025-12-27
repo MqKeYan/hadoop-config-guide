@@ -29,7 +29,7 @@
 </p>
 
 4. **名称与安装位置设置**  
-   在`Virtual machine name`（虚拟机名称）下面的框格输入`HadoopMaster`作为虚拟机的名称，然后在`Location`（位置）下面的框格中点击`Browse`按钮选择安装的位置，尽可能选择剩余空间大的位置作为安装位置。操作如图：
+   在`Virtual machine name`（虚拟机名称）下面的框格输入`HadoopMaster`作为虚拟机的名称，然后在`Location`（位置）下面的框格中点击`Browse`按钮选择安装的位置，尽可能选择剩余空间大的位置作为安装位置，也可以保持默认位置。操作如图：
 <p align="center">
   <img src="../image/ISO%20Installation%20Diagram/P4.png" width="60%">
 </p>
