@@ -28,26 +28,14 @@
   <img src="../image/ISO%20Installation%20Diagram/P3.png" width="60%">
 </p>
 
-4. **名称与位置**  
-   在`Virtual machine name`（虚拟机名称）下面的框格输入`HadoopMaster`作为虚拟机的名称，然后在`Location`（位置）下面的框格中点击`Browse`按钮选择安装的位置。操作如图：
+4. **名称与安装位置**  
+   在`Virtual machine name`（虚拟机名称）下面的框格输入`HadoopMaster`作为虚拟机的名称，然后在`Location`（位置）下面的框格中点击`Browse`按钮选择安装的位置，尽可能选择剩余空间大的位置作为安装位置。操作如图：
 <p align="center">
-  <img src="../image/ISO%20Installation%20Diagram/P4.png" width="80%">
+  <img src="../image/ISO%20Installation%20Diagram/P4.png" width="60%">
 </p>
 
-5. **权限校验**  
-   分别在`Master`、`Slave1`和`Slave2`上输入`chmod 700 ~/.ssh`和`chmod 600 ~/.ssh/authorized_keys`进行权限校验，校验正常将不会有提示。操作如图：
+5. **磁盘设置**  
+   在`Maximum disk size(GB)`（最大磁盘大小）后面设置`20`，一般情况下 20GB 足够使用，后期可以在虚拟机设置里面扩容，，勾选下面`Store virtual disk as a single file`（将虚拟磁盘储存为单个文件）的勾选框。操作如图：
 <p align="center">
-  <img src="../image/SSH%20Configuration%20Diagram/P7.png" width="80%">
-</p>
-<p align="center">
-  <img src="../image/SSH%20Configuration%20Diagram/P8.png" width="80%">
-</p>
-<p align="center">
-  <img src="../image/SSH%20Configuration%20Diagram/P9.png" width="80%">
-</p>
-
-5. **免密登录验证**  
-   在`Master`上分别输入`ssh Master`、`ssh Slave1`和`ssh Slave2`进行免密登录验证，每次登陆后需要输入`exit`退出再登录下一个设备。操作如图：
-<p align="center">
-  <img src="../image/SSH%20Configuration%20Diagram/P10.png" width="80%">
+  <img src="../image/ISO%20Installation%20Diagram/P5.png" width="60%">
 </p>
