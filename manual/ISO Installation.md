@@ -10,10 +10,10 @@
   <a href="./ISO%20Installation_en.md"> English </a>
 </p>
 
-1. **确认 OpenSSH 安装情况**  
-   在`Master`上输入`rpm -qa | grep openssh`查看`OpenSSH`是否正常安装，若正常安装将会输出版本信息；若未安装可输入`sudo dnf install -y openssh-server openssh-clients`进行安装。操作如图：
+1. **新建虚拟机**  
+   在 VMware Workstation 中，依次点击`File`-`New Virtual Machine`新建虚拟机。操作如图：
 <p align="center">
-  <img src="../image/SSH%20Configuration%20Diagram/P1.png" width="80%">
+  <img src="../image/ISO%20Installation%20Diagram/.png" width="80%">
 </p>
 
 2. **生成 RSA 密钥对**  
