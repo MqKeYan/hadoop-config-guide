@@ -123,3 +123,8 @@
 <p align="center">
   <img src="../image/ISO%20Installation%20Diagram/P19.png" width="80%">
 </p>
+
+---
+<p align="center">
+  <a href="../README.md"><strong> 返回主页 </strong></a>
+</p>
