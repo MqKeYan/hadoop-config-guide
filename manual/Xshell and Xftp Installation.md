@@ -85,6 +85,7 @@
 <p align="center">
   <img src="../image/Xshell%20and%20Xftp%20Installation%20Diagram/P12.png" width="60%">
 </p>
+
 ---
 <p align="center">
   <a href="../README.md"><strong> 返回主页 </strong></a>
