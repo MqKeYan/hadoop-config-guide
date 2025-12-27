@@ -71,7 +71,7 @@
 - **集群基础配置**  
   将第1台虚拟机作为集群的主机，其余2台虚拟机作为集群的子机，然后对虚拟机进行集群基础配置。具体步骤请参考[集群基础配置详情](manual/Basic%20Cluster%20Configuration.md)。
 - **Xshell 与 Xftp 配置**  
-  分别将 Xshell 与 Xftp 连接至服务器，为后续操作做准备。具体步骤请参考[Xshell 与 Xftp 配置详情](manual/.md)。
+  分别将 Xshell 与 Xftp 连接至服务器，为后续操作做准备。具体步骤请参考[Xshell 与 Xftp 配置详情](manual/Xshell%20and%20Xftp%20Configuration.md)。
 - **文件导入**  
   使用Xftp将`Hadoop`、`Spark`和`Java`等的压缩包传入服务器主机的根目录。具体步骤请参考[文件导入详情](manual/.md)。
 - **SSH 配置**  
