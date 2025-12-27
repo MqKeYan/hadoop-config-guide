@@ -59,7 +59,7 @@
 - **操作系统安装**  
   安装 CentOS 10 操作系统，创建和部署基于 Linux 环境的虚拟化应用程序。具体步骤请参考[操作系统安装详情](manual/ISO%20Installation.md)。
 - **Xshell 与 Xftp 安装**  
-  Xshell 能提供`远程终端管理`和`命令行操作`，方便在主机中操作虚拟机；而 Xftp 能够提供`文件传输`，方便在本地 PC 与服务器之间进行文件传输。具体步骤请参考[Xshell 与 Xftp 安装详情](manual/.md)。
+  Xshell 能提供`远程终端管理`和`命令行操作`，方便在主机中操作虚拟机；而 Xftp 能够提供`文件传输`，方便在本地 PC 与服务器之间进行文件传输。具体步骤请参考[Xshell 与 Xftp 安装详情](manual/Xshell%20and%20Xftp%20Installation.md)。
 
 **注**：软件安装过程出现问题可以去讨论区发帖，也可以咨询 Ai 获取解决方法（推荐使用国外的 Ai 模型）。
 
