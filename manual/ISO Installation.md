@@ -114,3 +114,12 @@
 <p align="center">
   <img src="../image/ISO%20Installation%20Diagram/P17.png" width="80%">
 </p>
+
+16. **完成安装**  
+    直接点击`开始安装`按钮进行安装，等待安装完成，点击`重启系统`完成系统安装。操作如图：
+<p align="center">
+  <img src="../image/ISO%20Installation%20Diagram/P18.png" width="80%">
+</p>
+<p align="center">
+  <img src="../image/ISO%20Installation%20Diagram/P19.png" width="80%">
+</p>
