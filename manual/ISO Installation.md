@@ -28,16 +28,10 @@
   <img src="../image/ISO%20Installation%20Diagram/P3.png" width="60%">
 </p>
 
-4. **分发公钥**  
-   在`Master`上分别输入`ssh-copy-id Master`、`ssh-copy-id Slave1`和`ssh-copy-id Slave2`将密钥分发到`Master`、`Slave1`和`Slave2`，注意名称的大小写不要写错名称。其中`Are you sure you want to continue connecting (yes/no/[fingerprint])?`是 SSH 首次连接到目标主机时的正常安全提示，直接输入 yes 并回车。出现`password:`的提示时输入用户密码并回车。操作如图：
+4. **名称与位置**  
+   在`Virtual machine name`（虚拟机名称）下面的框格输入`HadoopMaster`作为虚拟机的名称，然后在`Location`（位置）下面的框格中点击`Browse`按钮选择安装的位置。操作如图：
 <p align="center">
-  <img src="../image/SSH%20Configuration%20Diagram/P4.png" width="80%">
-</p>
-<p align="center">
-  <img src="../image/SSH%20Configuration%20Diagram/P5.png" width="80%">
-</p>
-<p align="center">
-  <img src="../image/SSH%20Configuration%20Diagram/P6.png" width="80%">
+  <img src="../image/ISO%20Installation%20Diagram/P4.png" width="80%">
 </p>
 
 5. **权限校验**  
