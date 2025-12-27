@@ -1,4 +1,4 @@
-<img width="776" height="610" alt="P5" src="https://github.com/user-attachments/assets/1342b3b3-9d15-4fee-801b-cf790cd84255" /><h1 align="center">
+><h1 align="center">
   <br>
   <strong> Xshell 和 Xftp 配置指南 </strong>
   <br>
