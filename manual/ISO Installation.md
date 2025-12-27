@@ -40,8 +40,20 @@
   <img src="../image/ISO%20Installation%20Diagram/P5.png" width="60%">
 </p>
 
-6. **磁盘设置**  
+6. **硬件详情**  
    点击`Customize Hardware`（自定义硬件）进入硬件详情设置，下面的`Power on this virtual machine after creation`（创建后打开虚拟机电源）可以根据实际情况进行勾选。操作如图：
 <p align="center">
   <img src="../image/ISO%20Installation%20Diagram/P6.png" width="60%">
+</p>
+
+7. **内存设置**  
+   内存设置可以在`Memory for this virtual machine`后面的框中手动输入设置内存大小，也可以直接拖动或点击下面的滑条与刻度。在教学环境如果只安装`Hadoop`内存推荐2G以上内存，如果还要安装`Spark`内存推荐4G以上。如果后期运行大型文件遇到内存不足可以再扩容。操作如图：
+<p align="center">
+  <img src="../image/ISO%20Installation%20Diagram/P7.png" width="60%">
+</p>
+
+8. **CPU设置**  
+   CPU。如果后期运行大型文件遇到内存不足可以再扩容。操作如图：
+<p align="center">
+  <img src="../image/ISO%20Installation%20Diagram/P7.png" width="60%">
 </p>
