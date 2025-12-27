@@ -62,7 +62,7 @@
   <img src="../image/Xshell%20and%20Xftp%20Configuration%20Diagram/P11.png" width="80%">
 </p>
 3. **测试配置**  
-   双击需要连接的服务器建立连接，第一次连接会弹出`SSH 安全警告`，直接点击接受并保持完成连接，出现服务器的终端信息表示连接成功。操作如图：
+   双击需要连接的服务器建立连接，出现服务器的文件信息表示连接成功。操作如图：
 <p align="center">
   <img src="../image/Xshell%20and%20Xftp%20Configuration%20Diagram/P12.png" width="80%">
 </p>
