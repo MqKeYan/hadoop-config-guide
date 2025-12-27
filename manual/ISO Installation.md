@@ -1,6 +1,6 @@
 <h1 align="center">
   <br>
-  <strong> ISO 安装 </strong>
+  <strong> 操作系统安装 </strong>
   <br>
 </h1>
 
