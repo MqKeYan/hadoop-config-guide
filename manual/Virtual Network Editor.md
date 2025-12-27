@@ -13,5 +13,5 @@
 1. **新建虚拟机**  
    在 VMware Workstation 中，依次点击`File`-`New Virtual Machine`新建虚拟机。操作如图：
 <p align="center">
-  <img src="../image/ISO%20Installation%20Diagram/P1.png" width="80%">
+  <img src="../Virtual%20Network%20EditorDiagram/P1.png" width="80%">
 </p>
