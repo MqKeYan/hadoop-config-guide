@@ -16,16 +16,16 @@
   <img src="../image/ISO%20Installation%20Diagram/.png" width="80%">
 </p>
 
-2. **生成 RSA 密钥对**  
-   在`Master`上输入`ssh-keygen -t rsa -b 4096`生成 RSA 密钥对，出现下面内容直接回车不做编辑：`Enter file in which to save the key (/home/user/.ssh/id_rsa):`（生成文件的文件夹位置设置，默认在`/home/user/.ssh/`文件夹，可不修改）、`Enter passphrase for "/home/user/.ssh/id_rsa" (empty for no passphrase):`（给私钥文件设置密码，设置后需要再输入一层密码才能使用，不符合我们追求免密登录的目的）和`Enter same passphrase again:`（上一条密码是设置的二次确认，上一步不做操作则忽略）。操作如图：
+2. **安装模式**  
+   勾选第一个`Typical`（典型）的勾选框，系统默认推荐该方式创建，只需要简单设置就能创建一台虚拟机做服务器的主机。操作如图：
 <p align="center">
-  <img src="../image/SSH%20Configuration%20Diagram/P2.png" width="80%">
+  <img src="../image/ISO%20Installation%20Diagram/P2.png" width="80%">
 </p>
 
 3. **验证是否成功**  
    在`Master`上输入`ls ~/.ssh/`查看生成密钥对的文件夹文件，如果出现`id_rsa`（私钥）和`id_rsa.pub`（公钥）两个文件说明生成成功。操作如图：
 <p align="center">
-  <img src="../image/SSH%20Configuration%20Diagram/P3.png" width="80%">
+  <img src="../image/ISO%20Installation%20Diagram/P3.png" width="80%">
 </p>
 
 4. **分发公钥**  
