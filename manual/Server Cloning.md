@@ -43,6 +43,12 @@
   <img src="../image/Server%20Cloning%20Diagram/P6.png" width="60%">
 </p>
 
+5. **完成克隆**  
+   直接点击`Close`完成克隆操作。操作如图：
+<p align="center">
+  <img src="../image/Server%20Cloning%20Diagram/P7.png" width="60%">
+</p>
+
 ---
 <p align="center">
   <a href="../README.md"><strong> 返回主页 </strong></a>
