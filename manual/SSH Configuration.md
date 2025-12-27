@@ -52,7 +52,7 @@
   <img src="../image/SSH%20Configuration%20Diagram/P9.png" width="80%">
 </p>
 
-5. **免密登录验证**  
+6. **免密登录验证**  
    在`Master`上分别输入`ssh Master`、`ssh Slave1`和`ssh Slave2`进行免密登录验证，每次登陆后需要输入`exit`退出再登录下一个设备。操作如图：
 <p align="center">
   <img src="../image/SSH%20Configuration%20Diagram/P10.png" width="80%">
