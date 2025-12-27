@@ -47,13 +47,16 @@
 </p>
 
 7. **内存设置**  
-   内存设置可以在`Memory for this virtual machine`后面的框中手动输入设置内存大小，也可以直接拖动或点击下面的滑条与刻度。在教学环境如果只安装`Hadoop`内存推荐2G以上内存，如果还要安装`Spark`内存推荐4G以上。如果后期运行大型文件遇到内存不足可以再扩容。操作如图：
+   点击左边的`Memory`进入内存设置，内存设置可以在`Memory for this virtual machine`后面的框中手动输入设置内存大小，也可以直接拖动或点击下面的滑条与刻度。在教学环境中，如果只安装`Hadoop`内存推荐 2G 以上，如果还要安装`Spark`内存推荐 4G 以上。如果后期运行大型文件遇到内存不足可以再扩容。操作如图：
 <p align="center">
   <img src="../image/ISO%20Installation%20Diagram/P7.png" width="60%">
 </p>
 
-8. **CPU设置**  
-   CPU。如果后期运行大型文件遇到内存不足可以再扩容。操作如图：
+8. **处理器设置**  
+   首先打开本地 PC 的`任务管理器`查看 CPU 的逻辑处理器数量详情，确保分配完后本地 PC 还能够正常运行。点击左边的`Processors`进入处理器设置详情，给`Number of processors`（处理器数量）设置数量为`1`，给`Number of cores per processors`（每个处理器核心数量）设置数量为`3`（推荐2-4，更多数量就看电脑性能了）。如果后期运行大型文件遇到核心不足可以再扩容。操作如图：
 <p align="center">
-  <img src="../image/ISO%20Installation%20Diagram/P7.png" width="60%">
+  <img src="../image/ISO%20Installation%20Diagram/P8.png" width="60%">
+</p>
+<p align="center">
+  <img src="../image/ISO%20Installation%20Diagram/P9.png" width="60%">
 </p>
