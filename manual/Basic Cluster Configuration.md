@@ -84,6 +84,9 @@
 <p align="center">
   <img src="../image/Basic%20Cluster%20Configuration%20Diagram/P18.png" width="80%">
 </p>
+
+8. **检查 hosts 文件**  
+   在`Master`服务器中，点击左上角状态栏，再点击`终端`图标进入终端界面。在`终端`里面输入`su`并输入密码（密码不会显示出来，需要盲输）进入Root 用户模式，再输入`cat /etc/hosts`查询 hosts 文件信息，确认输出的 hosts 文件与，完成后输入`exit`退出 Root 用户模式。其他两台服务器子机也执行相同操作，进行 hosts 文件配置。操作如图：
 <p align="center">
   <img src="../image/Basic%20Cluster%20Configuration%20Diagram/P19.png" width="80%">
 </p>
@@ -94,8 +97,8 @@
   <img src="../image/Basic%20Cluster%20Configuration%20Diagram/P21.png" width="80%">
 </p>
 
-8. **验证hosts 文件**  
-   在`Master`服务器中，点击左上角状态栏，再点击`终端`图标进入终端界面。在`终端`里面分别输入`ping -c 5 Master`、`ping -c 5 Slave1`和`ping -c 5 Slave2`进行连通性验证,如果 hosts 文件设置正确就会有相应的 ping 反馈。其他两台服务器子机也执行相同操作，检查 hosts 文件是否配置正确。操作如图：
+9. **验证 hosts 文件**  
+   在`Master`服务器中，点击左上角状态栏，再点击`终端`图标进入终端界面。在`终端`里面分别输入`ping -c 5 Master`、`ping -c 5 Slave1`和`ping -c 5 Slave2`进行连通性验证,如果 hosts 文件配置正确就会有相应的 ping 反馈。其他两台服务器子机也执行相同操作，验证配置是否正确。操作如图：
 <p align="center">
   <img src="../image/Basic%20Cluster%20Configuration%20Diagram/P22.png" width="80%">
 </p>
