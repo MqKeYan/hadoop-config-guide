@@ -1,4 +1,4 @@
-><h1 align="center">
+<h1 align="center">
   <br>
   <strong> Xshell 和 Xftp 配置指南 </strong>
   <br>
