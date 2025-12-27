@@ -13,19 +13,19 @@
 1. **新建虚拟机**  
    在 VMware Workstation 中，依次点击`File`-`New Virtual Machine`新建虚拟机。操作如图：
 <p align="center">
-  <img src="../image/ISO%20Installation%20Diagram/.png" width="80%">
+  <img src="../image/ISO%20Installation%20Diagram/P1.png" width="80%">
 </p>
 
 2. **安装模式**  
-   勾选第一个`Typical`（典型）的勾选框，系统默认推荐该方式创建，只需要简单设置就能创建一台虚拟机做服务器的主机。操作如图：
+   勾选第一个`Typical`（典型）的勾选框，默认推荐该方式进行创建，只需要简单设置就能创建一台虚拟机做服务器的主机。操作如图：
 <p align="center">
-  <img src="../image/ISO%20Installation%20Diagram/P2.png" width="80%">
+  <img src="../image/ISO%20Installation%20Diagram/P2.png" width="60%">
 </p>
 
-3. **验证是否成功**  
-   在`Master`上输入`ls ~/.ssh/`查看生成密钥对的文件夹文件，如果出现`id_rsa`（私钥）和`id_rsa.pub`（公钥）两个文件说明生成成功。操作如图：
+3. **安装来源**  
+   勾选`Installer disc image file(iso):`的勾选框，然后点击`Browse`按钮，从文件管理系统中选择之前下载的 ISO 系统镜像作为系统的安装来源。操作如图：
 <p align="center">
-  <img src="../image/ISO%20Installation%20Diagram/P3.png" width="80%">
+  <img src="../image/ISO%20Installation%20Diagram/P3.png" width="60%">
 </p>
 
 4. **分发公钥**  
