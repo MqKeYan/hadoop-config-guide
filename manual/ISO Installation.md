@@ -35,7 +35,13 @@
 </p>
 
 5. **磁盘设置**  
-   在`Maximum disk size(GB)`（最大磁盘大小）后面设置`20`，一般情况下 20GB 足够使用，后期可以在虚拟机设置里面扩容，，勾选下面`Store virtual disk as a single file`（将虚拟磁盘储存为单个文件）的勾选框。操作如图：
+   在`Maximum disk size(GB)`（最大磁盘大小）后面设置`20`，一般情况下 20GB 足够使用而且后期可以扩容，同时勾选下面`Store virtual disk as a single file`（将虚拟磁盘储存为单个文件）的勾选框。操作如图：
 <p align="center">
   <img src="../image/ISO%20Installation%20Diagram/P5.png" width="60%">
+</p>
+
+6. **磁盘设置**  
+   点击`Customize Hardware`（自定义硬件）进入硬件详情设置，下面的`Power on this virtual machine after creation`（创建后打开虚拟机电源）可以根据实际情况进行勾选。操作如图：
+<p align="center">
+  <img src="../image/ISO%20Installation%20Diagram/P6.png" width="60%">
 </p>
