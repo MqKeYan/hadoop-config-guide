@@ -6,7 +6,7 @@
 
 <p align="center">
   Languages:
-  <a href="./SSH%20Configuration.md"> 简体中文 </a> ·
+  <a href="../SC/SSH%20Configuration.md"> 简体中文 </a> ·
   <a href="../EN/SSH%20Configuration_en.md"> English </a>
 </p>
 
