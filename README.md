@@ -73,7 +73,7 @@
 - **Xshell 与 Xftp 配置**  
   分别将 Xshell 与 Xftp 连接至服务器，为后续操作做准备。具体步骤请参考[Xshell 与 Xftp 配置详情](manual/Xshell%20and%20Xftp%20Configuration.md)。
 - **文件导入**  
-  使用Xftp将`Hadoop`、`Spark`和`Java`等的压缩包传入服务器主机的根目录。具体步骤请参考[文件导入详情](manual/.md)。
+  使用Xftp将`Hadoop`、`Spark`和`Java`等的压缩包传入服务器主机的根目录。具体步骤请参考[文件导入详情](manual/Data%20Import.md)。
 - **SSH 配置**  
   通过配置 SSH 可以实现服务器之间的 SSH 无密码登录，简化集群管理操作流程同时提高运维效率。具体步骤请参考[SSH 配置详情](manual/SSH%20Configuration%20Diagram.md)。
 - **Eclipse 安装**  
