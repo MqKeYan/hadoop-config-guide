@@ -55,29 +55,29 @@
 ## 软件安装
 
 - **VMware 虚拟机安装**  
-  以 Windows 11 25H2 操作系统为例，在新版本的 Windows 11 操作系统中对 VMware 有版本要求，推荐使用17.0版本及其之后的版本，软件操作比较简单主要作为载体，所以软件汉化与否影响不大。具体步骤请参考[虚拟机安装详情](manual/VMware%20Installation.md)。
+  以 Windows 11 25H2 操作系统为例，在新版本的 Windows 11 操作系统中对 VMware 有版本要求，推荐使用17.0版本及其之后的版本，软件操作比较简单主要作为载体，所以软件汉化与否影响不大。具体步骤请参考[虚拟机安装详情](manual/SC/VMware%20Installation.md)。
 - **操作系统安装**  
-  安装 CentOS 10 操作系统，创建和部署基于 Linux 环境的虚拟化应用程序。具体步骤请参考[操作系统安装详情](manual/ISO%20Installation.md)。
+  安装 CentOS 10 操作系统，创建和部署基于 Linux 环境的虚拟化应用程序。具体步骤请参考[操作系统安装详情](manual/SC/ISO%20Installation.md)。
 - **Xshell 与 Xftp 安装**  
-  Xshell 能提供`远程终端管理`和`命令行操作`，方便在主机中操作虚拟机；而 Xftp 能够提供`文件传输`，方便在本地 PC 与服务器之间进行文件传输。具体步骤请参考[Xshell 与 Xftp 安装详情](manual/Xshell%20and%20Xftp%20Installation.md)。
+  Xshell 能提供`远程终端管理`和`命令行操作`，方便在主机中操作虚拟机；而 Xftp 能够提供`文件传输`，方便在本地 PC 与服务器之间进行文件传输。具体步骤请参考[Xshell 与 Xftp 安装详情](manual/SC/Xshell%20and%20Xftp%20Installation.md)。
 
 **注**：软件安装过程出现问题可以去讨论区发帖，也可以咨询 Ai 获取解决方法（推荐使用 ChatGPT）。
 
 ## 系统配置
 - **虚拟机克隆**  
-  通过克隆第1台虚拟机创建出额外2个虚拟机，以此来搭建 Hadoop 集群。具体步骤请参考[虚拟机克隆详情](manual/Server%20Cloning.md)。
+  通过克隆第1台虚拟机创建出额外2个虚拟机，以此来搭建 Hadoop 集群。具体步骤请参考[虚拟机克隆详情](manual/SC/Server%20Cloning.md)。
 - **虚拟网络配置**  
-  在 VMware Workstation 中通过`虚拟网络编辑器`配置服务器的IP，确保虚拟机能够正常访问本地 PC 的网络。具体步骤请参考[虚拟网络配置详情](manual/Virtual%20Network%20Editor.md)。
+  在 VMware Workstation 中通过`虚拟网络编辑器`配置服务器的IP，确保虚拟机能够正常访问本地 PC 的网络。具体步骤请参考[虚拟网络配置详情](manual/SC/Virtual%20Network%20Editor.md)。
 - **集群基础配置**  
-  将第1台虚拟机作为集群的主机，其余2台虚拟机作为集群的子机，然后对虚拟机进行集群基础配置。具体步骤请参考[集群基础配置详情](manual/Basic%20Cluster%20Configuration.md)。
+  将第1台虚拟机作为集群的主机，其余2台虚拟机作为集群的子机，然后对虚拟机进行集群基础配置。具体步骤请参考[集群基础配置详情](manual/SC/Basic%20Cluster%20Configuration.md)。
 - **Xshell 与 Xftp 配置**  
-  分别将 Xshell 与 Xftp 连接至服务器，为后续操作做准备。具体步骤请参考[Xshell 与 Xftp 配置详情](manual/Xshell%20and%20Xftp%20Configuration.md)。
+  分别将 Xshell 与 Xftp 连接至服务器，为后续操作做准备。具体步骤请参考[Xshell 与 Xftp 配置详情](manual/SC/Xshell%20and%20Xftp%20Configuration.md)。
 - **文件导入**  
-  使用Xftp将`Hadoop`、`Spark`和`Java`等的压缩包传入服务器主机的根目录。具体步骤请参考[文件导入详情](manual/Data%20Import.md)。
+  使用Xftp将`Hadoop`、`Spark`和`Java`等的压缩包传入服务器主机的根目录。具体步骤请参考[文件导入详情](manual/SC/Data%20Import.md)。
 - **SSH 配置**  
-  通过配置 SSH 可以实现服务器之间的 SSH 无密码登录，简化集群管理操作流程同时提高运维效率。具体步骤请参考[SSH 配置详情](manual/SSH%20Configuration.md)。
+  通过配置 SSH 可以实现服务器之间的 SSH 无密码登录，简化集群管理操作流程同时提高运维效率。具体步骤请参考[SSH 配置详情](manual/SC/SSH%20Configuration.md)。
 - **Java 配置**  
-  分别在各个服务器上安装好 Java 环境，为后续操作做准备。[Java 配置详情](manual/Java%20Configuration.md)。
+  分别在各个服务器上安装好 Java 环境，为后续操作做准备。[Java 配置详情](manual/SC/Java%20Configuration.md)。
 - **Eclipse 安装**  
   在服务器主机上安装 Eclipse 集成开发环境，用于后续 Hadoop 与 Spark 项目的开发、调试与运行。[Eclipse 安装详情](manual/.md)。
 
