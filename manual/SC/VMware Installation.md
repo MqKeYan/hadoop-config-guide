@@ -6,7 +6,7 @@
 
 <p align="center">
   Languages:
-  <a href="./VMware%20Installation.md"> 简体中文 </a> ·
+  <a href="../SC/VMware%20Installation.md"> 简体中文 </a> ·
   <a href="../EN/VMware%20Installation_en.md"> English </a>
 </p>
 
