@@ -36,7 +36,7 @@
   <img src="../../image/Java%20Configuration%20Diagram/P5.png" width="80%">
 </p>
 <p align="center">
-  <img src="../../image/Java%20Configuration%20Diagram/P.png" width="80%">
+  <img src="../../image/Java%20Configuration%20Diagram/P6.png" width="80%">
 </p>
 <p align="center">
   <img src="../../image/Java%20Configuration%20Diagram/P7.png" width="80%">
