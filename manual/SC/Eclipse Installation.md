@@ -35,7 +35,7 @@
 </p>
 
 4. **创建快捷方式**  
-   输入`sudo vim /usr/share/applications/eclipse.desktop`创建快捷方式，按`i`键进入编辑模式，按照[快捷方式编辑详情](../../notes/usr/share/applications/eclipse.desktop)编辑文件，按`ESC`键再输入`:wq`保存退出，重启服务器生效。操作如图：  
+   输入`sudo vim /usr/share/applications/eclipse.desktop`创建快捷方式，按`i`键进入编辑模式，按照[快捷方式编辑详情](../../notes/usr/share/applications/eclipse.desktop)编辑文件，按`ESC`键再输入`:wq`保存退出，重启服务器生效。操作如图： 
    **注：**
    `Icon=/home/user/eclipse/plugins/org.eclipse.platform_4.38.0.v20251201-0920/eclipse256.png`可能因为版本不同位置不同，可使用`find /home/user/eclipse -iname "*.png"`查询 .png 文件。因为 GNOME 桌面环境不再可靠支持 .xpm 作为应用启动器图标格式，所以原本软件根目录的 .xpm 文件是用不了，改为使用 .png 文件。
 <p align="center">
