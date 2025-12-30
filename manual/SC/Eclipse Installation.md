@@ -44,7 +44,7 @@
 
 5. **安装依赖**  
    输入`dnf repolist`检查系统仓库启用情况，检查是否有`epel`仓库，如果没有需要使用`sudo dnf install epel-release
-`启用该仓库，再输入`sudo dnf update`更新系统仓库并同步依赖。输入`sudo dnf install gtk3`安装`gtk3`依赖，再输入`sudo dnf install webkit2gtk4.1`安装`webkit2gtk4.1`依赖。安装依赖过程中，遇到提问是否安装直接按`y`键确认安装即可。操作如图： 
+`启用该仓库，再输入`sudo dnf update`更新系统仓库并同步依赖，输入`dnf search webkit2gtk4.1`检查是否有`webkit2gtk4.1`依赖，输入`sudo dnf install gtk3`安装`gtk3`依赖，再输入`sudo dnf install webkit2gtk4.1`安装`webkit2gtk4.1`依赖。安装依赖过程中，遇到提问是否安装直接按`y`键确认安装。操作如图： 
    **注：**
    `WebKit`相关依赖在`epel`仓库里面，需要启用该仓库才能正常安装`WebKit2gtk4.1`，而`gtk3`和`webkit2gtk4.1`是 Eclipse 的依赖，安装后才能正确显示全部窗口信息。软件更新可能会导致依赖变化以官方更新为准。
 <p align="center">
