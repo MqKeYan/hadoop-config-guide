@@ -51,6 +51,24 @@
   <img src="../../image/Eclipse%20Installation%20Diagram/P.png" width="80%">
 </p>
 
+6. **验证依赖**  
+   输入`rpm -qa | grep gtk3`和`rpm -qa | grep webkit2gtk4.1`验证依赖安装，出现类似`gtk3-3.24.43-4.el10.x86_64`和`webkit2gtk4.1-2.48.3-1.el10_1.x86_64`说明成功。操作如图：
+<p align="center">
+  <img src="../../image/Eclipse%20Installation%20Diagram/P.png" width="80%">
+</p>
+
+7. **启动 Eclipse**  
+   双击 Eclipse 图标启动软件，点击`Browse`按钮设置默认工作区的目录，推荐保持默认直接进入软件，软件功能正常说明安装成功。操作如图：
+<p align="center">
+  <img src="../../image/Eclipse%20Installation%20Diagram/P.png" width="80%">
+</p>
+
+7. **汉化 Eclipse**  
+   依次点击`Help`-`Install New Software`按钮进入安装页面，点击`Add`按钮添加下载安装，在`Name`输入`hanhua`，在`Location`输入`https://mirror.nju.edu.cn/eclipse/technology/babel/update-site/latest/`(南京大学镜像)或者`https://mirror.tuna.tsinghua.edu.cn/eclipse/technology/babel/update-site/latest/`（清华大学镜像）输入完成后点击`Add`，在列表中找到并勾选`Babel Language Packs in Chinese(Simplified)`选项，然后点击`Next`按钮等待下载，下载完成后在安装详细信息界面点击`Next`按钮，在接受许可证界面勾选`I accept the terms of the license agreement`选项，然后点击`Finish`按钮，在信任组织界面勾选`清华源镜像源`再点击`Trust Selected`完成。操作如图：
+<p align="center">
+  <img src="../../image/Eclipse%20Installation%20Diagram/P.png" width="80%">
+</p>
+
 ---
 <p align="center">
   <a href="../../README.md"><strong> 返回主页 </strong></a>
