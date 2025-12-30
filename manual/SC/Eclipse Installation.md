@@ -15,7 +15,7 @@
    **注：**
    Hadoop 推荐的 JDK 版本为 8 或者 11。
 <p align="center">
-  <img src="../../image/Eclipse%20Installation%20Diagram/P.png" width="60%">
+  <img src="../../image/Eclipse%20Installation%20Diagram/P1.png" width="60%">
 </p>
 
 2. **确认安装包**  
@@ -23,7 +23,7 @@
    **注：**
    `用户根目录`是Xshell 连接 Master 服务器的默认地址，也就是`/home/user/`目录，其中`user`是你的用户名，可以使用`cd /home/user/`或者`cd ~`返回用户根目录。
 <p align="center">
-  <img src="../../image/Eclipse%20Installation%20Diagram/P.png" width="60%">
+  <img src="../../image/Eclipse%20Installation%20Diagram/P2.png" width="60%">
 </p>
 
 3. **解压安装包**  
@@ -31,7 +31,7 @@
    **注：**
    将`eclipse-java-2025-12-R-linux-gtk-x86_64.tar.gz`改为实际的安装包名称。
 <p align="center">
-  <img src="../../image/Eclipse%20Installation%20Diagram/P.png" width="60%">
+  <img src="../../image/Eclipse%20Installation%20Diagram/P3.png" width="60%">
 </p>
 
 4. **创建快捷方式**  
@@ -39,7 +39,7 @@
    **注：**
    其中`Icon=/home/user/eclipse/plugins/org.eclipse.platform_4.38.0.v20251201-0920/eclipse256.png`可能因为版本不同位置不同，可使用`find /home/user/eclipse -iname "*.png"`查询 .png 文件。因为 GNOME 桌面环境不再可靠支持 .xpm 作为应用启动器图标格式，所以原本软件根目录的 .xpm 文件是用不了，改为使用 .png 文件。
 <p align="center">
-  <img src="../../image/Eclipse%20Installation%20Diagram/P.png" width="60%">
+  <img src="../../image/Eclipse%20Installation%20Diagram/P4.png" width="60%">
 </p>
 
 5. **安装依赖**  
@@ -48,58 +48,58 @@
    **注：**
    `WebKit`相关依赖在`epel`仓库里面，需要启用该仓库才能正常安装`WebKit2gtk4.1`，而`gtk3`和`webkit2gtk4.1`是 Eclipse 的依赖，安装后才能正确显示全部窗口信息。软件更新可能会导致依赖变化以官方更新为准。
 <p align="center">
-  <img src="../../image/Eclipse%20Installation%20Diagram/P.png" width="60%">
+  <img src="../../image/Eclipse%20Installation%20Diagram/P5.png" width="60%">
 </p>
 
 6. **验证依赖**  
    输入`rpm -qa | grep gtk3`和`rpm -qa | grep webkit2gtk4.1`验证依赖安装，出现类似`gtk3-3.24.43-4.el10.x86_64`和`webkit2gtk4.1-2.48.3-1.el10_1.x86_64`说明成功。操作如图：
 <p align="center">
-  <img src="../../image/Eclipse%20Installation%20Diagram/P.png" width="60%">
+  <img src="../../image/Eclipse%20Installation%20Diagram/P6.png" width="60%">
 </p>
 
 7. **启动 Eclipse**  
    双击 Eclipse 图标启动软件，点击`Browse`按钮设置工作区的目录（可以不做更改），勾选`Use this as the default and do not ask again`选项设置为默认目录，点击`Launch`按钮进入软件主页，软件功能正常说明安装成功。操作如图：
 <p align="center">
-  <img src="../../image/Eclipse%20Installation%20Diagram/P.png" width="80%">
+  <img src="../../image/Eclipse%20Installation%20Diagram/P7.png" width="80%">
 </p>
 <p align="center">
-  <img src="../../image/Eclipse%20Installation%20Diagram/P.png" width="80%">
+  <img src="../../image/Eclipse%20Installation%20Diagram/P8.png" width="80%">
 </p>
 
 7. **汉化 Eclipse**  
    依次点击`Help`-`Install New Software`按钮进入安装页面，点击`Add`按钮添加下载安装，在`Name`输入`hanhua`，在`Location`输入`https://mirror.nju.edu.cn/eclipse/technology/babel/update-site/latest/`（南京大学镜像）或`https://mirror.tuna.tsinghua.edu.cn/eclipse/technology/babel/update-site/latest/`（清华大学镜像），输入完成后会出现`OK`的提示，然后点击`Add`，在列表中找到并勾选`Babel Language Packs in Chinese(Simplified)`选项，然后点击`Next`按钮，在安装详细信息界面点击`Next`按钮，在接受许可证界面勾选`I accept the terms of the license agreement`选项，然后点击`Finish`按钮，在信任组织界面勾选出现的选项，再点击`Trust Selected`按钮等待下载，等待下载完成会弹出界面然后勾选出现的选项，再点击`Trust Selected`按钮，最后点击`Restart Now`按钮重启软件完成汉化。操作如图：
 <p align="center">
-  <img src="../../image/Eclipse%20Installation%20Diagram/P.png" width="80%">
+  <img src="../../image/Eclipse%20Installation%20Diagram/P9.png" width="80%">
 </p>
 <p align="center">
-  <img src="../../image/Eclipse%20Installation%20Diagram/P.png" width="80%">
+  <img src="../../image/Eclipse%20Installation%20Diagram/P10.png" width="80%">
 </p>
 <p align="center">
-  <img src="../../image/Eclipse%20Installation%20Diagram/P.png" width="80%">
+  <img src="../../image/Eclipse%20Installation%20Diagram/P11.png" width="80%">
 </p>
 <p align="center">
-  <img src="../../image/Eclipse%20Installation%20Diagram/P.png" width="80%">
+  <img src="../../image/Eclipse%20Installation%20Diagram/P12.png" width="80%">
 </p>
 <p align="center">
-  <img src="../../image/Eclipse%20Installation%20Diagram/P.png" width="80%">
+  <img src="../../image/Eclipse%20Installation%20Diagram/P13.png" width="80%">
 </p>
 <p align="center">
-  <img src="../../image/Eclipse%20Installation%20Diagram/P.png" width="80%">
+  <img src="../../image/Eclipse%20Installation%20Diagram/P14.png" width="80%">
 </p>
 <p align="center">
-  <img src="../../image/Eclipse%20Installation%20Diagram/P.png" width="80%">
+  <img src="../../image/Eclipse%20Installation%20Diagram/P15.png" width="80%">
 </p>
 <p align="center">
-  <img src="../../image/Eclipse%20Installation%20Diagram/P.png" width="80%">
+  <img src="../../image/Eclipse%20Installation%20Diagram/P16.png" width="80%">
 </p>
 <p align="center">
-  <img src="../../image/Eclipse%20Installation%20Diagram/P.png" width="80%">
+  <img src="../../image/Eclipse%20Installation%20Diagram/P17.png" width="80%">
 </p>
 <p align="center">
-  <img src="../../image/Eclipse%20Installation%20Diagram/P.png" width="80%">
+  <img src="../../image/Eclipse%20Installation%20Diagram/P18.png" width="80%">
 </p>
 <p align="center">
-  <img src="../../image/Eclipse%20Installation%20Diagram/P.png" width="80%">
+  <img src="../../image/Eclipse%20Installation%20Diagram/P19.png" width="80%">
 </p>
 
 ---
