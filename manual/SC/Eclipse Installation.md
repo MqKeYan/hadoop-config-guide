@@ -37,7 +37,16 @@
 4. **创建快捷方式**  
    输入`sudo vim /usr/share/applications/eclipse.desktop`创建快捷方式，按`i`键进入编辑模式，按照[快捷方式编辑详情](../../notes/usr/share/applications/eclipse.desktop)编辑文件，按`ESC`键再输入`:wq`保存退出，重启服务器生效。操作如图： 
    **注：**
-   `Icon=/home/user/eclipse/plugins/org.eclipse.platform_4.38.0.v20251201-0920/eclipse256.png`可能因为版本不同位置不同，可使用`find /home/user/eclipse -iname "*.png"`查询 .png 文件。因为 GNOME 桌面环境不再可靠支持 .xpm 作为应用启动器图标格式，所以原本软件根目录的 .xpm 文件是用不了，改为使用 .png 文件。
+   其中`Icon=/home/user/eclipse/plugins/org.eclipse.platform_4.38.0.v20251201-0920/eclipse256.png`可能因为版本不同位置不同，可使用`find /home/user/eclipse -iname "*.png"`查询 .png 文件。因为 GNOME 桌面环境不再可靠支持 .xpm 作为应用启动器图标格式，所以原本软件根目录的 .xpm 文件是用不了，改为使用 .png 文件。
+<p align="center">
+  <img src="../../image/Eclipse%20Installation%20Diagram/P.png" width="80%">
+</p>
+
+5. **安装依赖**  
+   输入`dnf repolist`检查系统仓库启用情况，检查是否有`epel`仓库，如果没有需要使用`sudo dnf install epel-release
+`启用该仓库，再输入`sudo dnf update`更新系统仓库并同步依赖。输入`sudo dnf install gtk3`安装`gtk3`依赖，再输入`sudo dnf install webkit2gtk4.1`安装`webkit2gtk4.1`依赖。安装依赖过程中，遇到提问是否安装直接按`y`键确认安装即可。操作如图： 
+   **注：**
+   `WebKit`相关依赖在`epel`仓库里面，需要启用该仓库才能正常安装`WebKit2gtk4.1`，而`gtk3`和`webkit2gtk4.1`是 Eclipse 的依赖，安装后才能正确显示全部窗口信息。软件更新可能会导致依赖变化以官方更新为准。
 <p align="center">
   <img src="../../image/Eclipse%20Installation%20Diagram/P.png" width="80%">
 </p>
