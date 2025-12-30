@@ -13,7 +13,7 @@
 1. **确认 Java 环境**  
    在`Master`服务器上输入`java -version`查询 Java 版本信息，确认 Java 版本与 Hadoop 适配。操作如图：
    **注：**
-   Hadoop 3.4.2 推荐的 JDK 版本为8/ 11。
+   Hadoop 推荐的 JDK 版本为 8 或者 11。
 <p align="center">
   <img src="../../image/Eclipse%20Installation%20Diagram/P.png" width="80%">
 </p>
@@ -26,7 +26,7 @@
   <img src="../../image/Eclipse%20Installation%20Diagram/P.png" width="80%">
 </p>
 
-2. **解压安装包**  
+3. **解压安装包**  
    输入`tar -zxvf eclipse-java-2025-12-R-linux-gtk-x86_64.tar.gz`解压安装包，使用`ls`确认解压是否成功,出现`eclipse`文件夹说明成功。操作如图：
    **注：**
    将`eclipse-java-2025-12-R-linux-gtk-x86_64.tar.gz`改为实际的安装包名称。
@@ -34,6 +34,11 @@
   <img src="../../image/Eclipse%20Installation%20Diagram/P.png" width="80%">
 </p>
 
+4. **创建快捷方式**  
+   输入`sudo vim /usr/share/applications/eclipse.desktop`创建快捷方式，按`i`键进入编辑模式，按照快捷方式详情编辑文件，按`ESC`键再输入`:wq`保存退出。操作如图：
+<p align="center">
+  <img src="../../image/Eclipse%20Installation%20Diagram/P.png" width="80%">
+</p>
 
 ---
 <p align="center">
