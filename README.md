@@ -77,7 +77,7 @@
 - **Java 配置**  
   分别在各个服务器上安装好 Java 环境，为后续操作做准备。具体步骤请参考[Java 配置详情](manual/SC/Java%20Configuration.md)。
 - **Eclipse 安装**  
-  在服务器主机上安装 Eclipse 集成开发环境，用于后续 Hadoop 与 Spark 项目的开发、调试与运行。具体步骤请参考[Eclipse 安装详情](manual/Eclipse%20Installation.md)。
+  在服务器主机上安装 Eclipse 集成开发环境，用于后续 Hadoop 与 Spark 项目的开发、调试与运行。具体步骤请参考[Eclipse 安装详情](manual/SC/Eclipse%20Installation.md)。
 
 ## Hadoop 集群搭建
 
