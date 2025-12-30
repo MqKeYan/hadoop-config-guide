@@ -64,7 +64,7 @@
 </p>
 
 7. **汉化 Eclipse**  
-   依次点击`Help`-`Install New Software`按钮进入安装页面，点击`Add`按钮添加下载安装，在`Name`输入`hanhua`，在`Location`输入`https://mirror.nju.edu.cn/eclipse/technology/babel/update-site/latest/`(南京大学镜像)或者`https://mirror.tuna.tsinghua.edu.cn/eclipse/technology/babel/update-site/latest/`（清华大学镜像）输入完成后点击`Add`，在列表中找到并勾选`Babel Language Packs in Chinese(Simplified)`选项，然后点击`Next`按钮等待下载，下载完成后在安装详细信息界面点击`Next`按钮，在接受许可证界面勾选`I accept the terms of the license agreement`选项，然后点击`Finish`按钮，在信任组织界面勾选`清华源镜像源`再点击`Trust Selected`完成。操作如图：
+   依次点击`Help`-`Install New Software`按钮进入安装页面，点击`Add`按钮添加下载安装，在`Name`输入`hanhua`，在`Location`输入`https://mirror.nju.edu.cn/eclipse/technology/babel/update-site/latest/`（南京大学镜像）或`https://mirror.tuna.tsinghua.edu.cn/eclipse/technology/babel/update-site/latest/`（清华大学镜像），输入完成后点击`Add`，在列表中找到并勾选`Babel Language Packs in Chinese(Simplified)`选项，然后点击`Next`按钮，在安装详细信息界面点击`Next`按钮，在接受许可证界面勾选`I accept the terms of the license agreement`选项，然后点击`Finish`按钮，在信任组织界面勾选出现的选项，再点击`Trust Selected`按钮等待下载，等待下载完成会弹出界面然后勾选出现的选项，再点击`Trust Selected`按钮，最后点击`Restart Now`按钮重启软件完成汉化。操作如图：
 <p align="center">
   <img src="../../image/Eclipse%20Installation%20Diagram/P.png" width="80%">
 </p>
