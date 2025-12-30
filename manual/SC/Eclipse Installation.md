@@ -35,7 +35,7 @@
 </p>
 
 4. **创建快捷方式**  
-   输入`sudo vim /usr/share/applications/eclipse.desktop`创建快捷方式，按`i`键进入编辑模式，按照快捷方式详情编辑文件，按`ESC`键再输入`:wq`保存退出。操作如图：
+   输入`sudo vim /usr/share/applications/eclipse.desktop`创建快捷方式，按`i`键进入编辑模式，按照[快捷方式编辑详情](../../notes/usr/share/applications/eclipse.desktop)编辑文件，按`ESC`键再输入`:wq`保存退出。操作如图：
 <p align="center">
   <img src="../../image/Eclipse%20Installation%20Diagram/P.png" width="80%">
 </p>
