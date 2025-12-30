@@ -1,0 +1,9 @@
+[Desktop Entry]
+Type=Application
+Name=Eclipse
+Comment=Eclipse IDE
+Exec=/home/user/eclipse/eclipse %F
+Icon=/home/user/eclipse/plugins/org.eclipse.platform_4.38.0.v20251201-0920/eclipse256.png
+Terminal=false
+Categories=Development;IDE;
+StartupWMClass=Eclipse
