@@ -19,7 +19,7 @@
 </p>
 
 2. **配置环境变量**  
-   输入`exit`退出 Root 账户，输入`vim /home/user/.bash_profile`（注意将`/home/user/`中的`user`改为实际的系统用户名）进入系统默认用户的环境变量文件编辑界面，先按下键盘上的`i`键进入编辑状态，再根据[环境变量文件](../../notes/home/user/.bash_profile)在原文件末尾加上，完成后先按下键盘上的`ESC`键，再输入`:wq`后按回车键进行保存（注意`:`为英文符号），输入`source /home/user/.bash_profile`使指令生效。输入`java -version`验证 JDK 是否安装成功，安装成功会有 Java 版本信息输出。操作如图：
+   输入`exit`退出 Root 账户，输入`vim /home/user/.bash_profile`（注意将`/home/user/`中的`user`改为实际的系统用户名）进入系统默认用户的环境变量文件编辑界面，先按下键盘上的`i`键进入编辑状态，再根据[环境变量文件](../../notes/home/user/.bash_profile)在原文件末尾加上，完成后先按下键盘上的`ESC`键，再输入`:wq`后按回车键进行保存（注意`:`为英文符号），输入`source /home/user/.bash_profile`使环境变量生效。输入`java -version`验证 JDK 是否安装成功，安装成功会有 Java 版本信息输出。操作如图：
 <p align="center">
   <img src="../../image/Java%20Configuration%20Diagram/P2.png" width="80%">
 </p>
