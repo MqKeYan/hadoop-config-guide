@@ -9,37 +9,37 @@
     <!-- ResourceManager 主机 -->
     <property>
         <name>yarn.resourcemanager.hostname</name>
-        <value>Master</value>  #集群中 ResourceManager（RM）所在的主机名称，需要注意大小写，请根据实际的主机名称编辑，也可以填写主机的IP地址。生产环境配置的不再是单个 hostname，而是使用例如 yarn.resourcemanager.cluster-id + rm1/rm2 等的形式，但是原理一样
+        <value>Master</value>  #集群 ResourceManager 所在的主机名称，需要注意大小写，请根据实际的主机名称编辑，也可以填写主机的 IP 地址。生产环境配置的不再是单个 hostname，而是使用例如 yarn.resourcemanager.cluster-id + rm1/rm2 等的形式，但是原理一样
     </property>
 
     <!-- NodeManager 可用内存（单位 MB） -->
     <property>
         <name>yarn.nodemanager.resource.memory-mb</name>
-        <value>3072</value>  #教学环境：NodeManager 可用内存 ≈ 节点物理内存 − 1~2 GB。生产环境：留更多内存给系统，NodeManager 分配 ≈ 70–80% 物理内存
+        <value>3072</value>  #教学环境：NodeManager 可用内存 ≈ 节点物理内存 − 1~2 GB；生产环境：留更多内存给系统，NodeManager 分配 ≈ 70–80% 物理内存
     </property>
 
     <!-- NodeManager 可用 CPU 核心 -->
     <property>
         <name>yarn.nodemanager.resource.cpu-vcores</name>
-        <value>2</value>
+        <value>2</value>  #最大 CPU 核心调度限制，至少给系统留出 1~2 个核心保证系统正常工作
     </property>
 
     <!-- 单个容器最小内存 -->
     <property>
         <name>yarn.scheduler.minimum-allocation-mb</name>
-        <value>512</value>
+        <value>512</value>  #设置太小导致容器太多，资源调度压力大；设置太大导致小作业无法启动
     </property>
 
     <!-- 单个容器最大内存 -->
     <property>
         <name>yarn.scheduler.maximum-allocation-mb</name>
-        <value>4096</value>
+        <value>2800</value>  #小于或者等于 NodeManager 的总内存，留出 10%-20% 的空余
     </property>
 
     <!-- YARN Web UI -->
     <property>
         <name>yarn.resourcemanager.webapp.address</name>
-        <value>master:8088</value>
+        <value>Master:8088</value>  #集群 ResourceManager 所在的主机名称，需要注意大小写，请根据实际的主机名称编辑，也可以填写主机的 IP 地址。Hadoop 3.x 默认 ResourceManager Web UI 端口是 8088
     </property>
 
 </configuration>
