@@ -26,7 +26,7 @@
     <!-- IO 缓冲区大小（性能优化） -->
     <property>
         <name>io.file.buffer.size</name>
-        <value>131072</value>  #根据集群的实际规模设置字节，教学环境 128KB 足够
+        <value>131072</value>  #根据集群的实际规模设置字节，教学环境 128KB 足够。数值过小性能降低，数值过大占用内存。
     </property>
 
 </configuration>
