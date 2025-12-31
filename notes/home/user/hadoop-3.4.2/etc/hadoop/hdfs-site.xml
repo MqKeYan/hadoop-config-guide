@@ -21,19 +21,19 @@
     <!-- Web UI 访问权限 -->
     <property>
         <name>dfs.permissions.enabled</name>
-        <value>false</value>
+        <value>false</value>  #教学环境为了方便使用选择 false 关闭了权限限制，权限设置需要根据实际情况设置，生产环境一定要设置 True 开启权限管理
     </property>
 
     <!-- HDFS Web UI 地址 -->
     <property>
         <name>dfs.namenode.http-address</name>
-        <value>master:9870</value>
+        <value>Master:9870</value>  #在集群中需要设置 Master（注意主机名大小写要一致）或者对应的 IP 地址方便管理，Hadoop3.x 的默认端口为 9870，可以根据实际情况修改，教学环境推荐不修改
     </property>
 
     <!-- DataNode 允许的最大传输线程 -->
     <property>
         <name>dfs.datanode.max.transfer.threads</name>
-        <value>4096</value>
+        <value>4096</value>  #4096为默认设置，数值过低可能出现在高并发下出现 “连接超时” 或 “DataNode 拒绝连接”，而数值过高会出现CPU 上下文切换过多导致性能反而下降
     </property>
 
 </configuration>
