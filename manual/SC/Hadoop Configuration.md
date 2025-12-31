@@ -15,7 +15,7 @@
    **注：**
    注意将`/home/user/`中的`user`改为实际的系统用户名，不要复制 core-site.xml 文件里面的注释，创建的文件夹地址改为实际需要创建的。
 <p align="center">
-  <img src="../../image/Hadoop%20Configuration%20Diagram/P.png" width="60%">
+  <img src="../../image/Hadoop%20Configuration%20Diagram/P1.png" width="60%">
 </p>
 
 2. **配置 hdfs-site.xml 文件**  
@@ -23,7 +23,7 @@
    **注：**
    注意将`/home/user/`中的`user`改为实际的系统用户名，不要复制 hdfs-site.xml 文件里面的注释，创建的文件夹地址改为实际需要创建的。
 <p align="center">
-  <img src="../../image/Hadoop%20Configuration%20Diagram/P.png" width="60%">
+  <img src="../../image/Hadoop%20Configuration%20Diagram/P2.png" width="60%">
 </p>
 
 3. **配置 yarn-site.xml 文件**  
@@ -31,7 +31,7 @@
    **注：**
    注意将`/home/user/`中的`user`改为实际的系统用户名，不要复制 yarn-site.xml 文件里面的注释，创建的文件夹地址改为实际需要创建的。
 <p align="center">
-  <img src="../../image/Hadoop%20Configuration%20Diagram/P.png" width="60%">
+  <img src="../../image/Hadoop%20Configuration%20Diagram/P3.png" width="60%">
 </p>
 
 4. **配置 mapred-site.xml 文件**  
@@ -39,7 +39,7 @@
    **注：**
    注意将`/home/user/`中的`user`改为实际的系统用户名，不要复制 mapred-site.xml 文件里面的注释，创建的文件夹地址改为实际需要创建的。
 <p align="center">
-  <img src="../../image/Hadoop%20Configuration%20Diagram/P.png" width="60%">
+  <img src="../../image/Hadoop%20Configuration%20Diagram/P4.png" width="60%">
 </p>
 
 ---
