@@ -33,7 +33,7 @@
     <!-- 单个容器最大内存 -->
     <property>
         <name>yarn.scheduler.maximum-allocation-mb</name>
-        <value>2800</value>  #小于或者等于 NodeManager 的总内存，留出 10%-20% 的空余
+        <value>1024</value>  #小于或者等于 NodeManager 的总内存，留出 10%-20% 的空余
     </property>
 
     <!-- YARN Web UI -->
