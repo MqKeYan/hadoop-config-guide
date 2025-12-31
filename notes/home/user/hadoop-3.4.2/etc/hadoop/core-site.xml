@@ -9,7 +9,7 @@
     <!-- Hadoop 临时数据目录（非常重要） -->
     <property>
         <name>hadoop.tmp.dir</name>
-        <value>/data/hadoop/tmp</value>
+        <value>/home/user/hadoopdata</value>  #注意user改为实际用户名
     </property>
 
     <!-- HDFS 客户端操作的默认权限 -->
@@ -26,7 +26,7 @@
     <!-- IO 缓冲区大小（性能优化） -->
     <property>
         <name>io.file.buffer.size</name>
-        <value>131072</value>
+        <value>131072</value>  #根据集群的实际规模设置字节，教学环境 128KB 足够
     </property>
 
 </configuration>
