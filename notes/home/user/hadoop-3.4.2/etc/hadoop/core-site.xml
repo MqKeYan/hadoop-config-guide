@@ -1,0 +1,32 @@
+<configuration>
+
+    <!-- HDFS 的访问入口（NameNode RPC 地址） -->
+    <property>
+        <name>fs.defaultFS</name>
+        <value>hdfs://master:9000</value>
+    </property>
+
+    <!-- Hadoop 临时数据目录（非常重要） -->
+    <property>
+        <name>hadoop.tmp.dir</name>
+        <value>/data/hadoop/tmp</value>
+    </property>
+
+    <!-- HDFS 客户端操作的默认权限 -->
+    <property>
+        <name>hadoop.proxyuser.user.hosts</name>
+        <value>*</value>
+    </property>
+
+    <property>
+        <name>hadoop.proxyuser.user.groups</name>
+        <value>*</value>
+    </property>
+
+    <!-- IO 缓冲区大小（性能优化） -->
+    <property>
+        <name>io.file.buffer.size</name>
+        <value>131072</value>
+    </property>
+
+</configuration>
