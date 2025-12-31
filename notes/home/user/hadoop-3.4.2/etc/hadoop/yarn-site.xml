@@ -1,0 +1,45 @@
+<configuration>
+
+    <!-- 启用 MapReduce Shuffle 服务 -->
+    <property>
+        <name>yarn.nodemanager.aux-services</name>
+        <value>mapreduce_shuffle</value>  #保证 MapReduce 任务中 Shuffle 阶段正常传输 Map 输出的必备配置
+    </property>
+
+    <!-- ResourceManager 主机 -->
+    <property>
+        <name>yarn.resourcemanager.hostname</name>
+        <value>Master</value>  #集群中 ResourceManager（RM）所在的主机名称，需要注意大小写，请根据实际的主机名称编辑，也可以填写主机的IP地址。生产环境配置的不再是单个 hostname，而是使用例如 yarn.resourcemanager.cluster-id + rm1/rm2 等的形式，但是原理一样
+    </property>
+
+    <!-- NodeManager 可用内存（单位 MB） -->
+    <property>
+        <name>yarn.nodemanager.resource.memory-mb</name>
+        <value>3072</value>  #教学环境：NodeManager 可用内存 ≈ 节点物理内存 − 1~2 GB。生产环境：留更多内存给系统，NodeManager 分配 ≈ 70–80% 物理内存
+    </property>
+
+    <!-- NodeManager 可用 CPU 核心 -->
+    <property>
+        <name>yarn.nodemanager.resource.cpu-vcores</name>
+        <value>2</value>
+    </property>
+
+    <!-- 单个容器最小内存 -->
+    <property>
+        <name>yarn.scheduler.minimum-allocation-mb</name>
+        <value>512</value>
+    </property>
+
+    <!-- 单个容器最大内存 -->
+    <property>
+        <name>yarn.scheduler.maximum-allocation-mb</name>
+        <value>4096</value>
+    </property>
+
+    <!-- YARN Web UI -->
+    <property>
+        <name>yarn.resourcemanager.webapp.address</name>
+        <value>master:8088</value>
+    </property>
+
+</configuration>
