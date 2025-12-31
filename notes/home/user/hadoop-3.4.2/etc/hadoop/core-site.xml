@@ -15,12 +15,12 @@
     <!-- HDFS 客户端操作的默认权限 -->
     <property>
         <name>hadoop.proxyuser.user.hosts</name>
-        <value>*</value>
+        <value>*</value>  #教学环境设置*方便调试，生产环境请根据实际情况进行限制，防止安全隐患
     </property>
 
     <property>
         <name>hadoop.proxyuser.user.groups</name>
-        <value>*</value>
+        <value>*</value>  #教学环境设置*方便调试，生产环境请根据实际情况进行限制，防止安全隐患
     </property>
 
     <!-- IO 缓冲区大小（性能优化） -->
