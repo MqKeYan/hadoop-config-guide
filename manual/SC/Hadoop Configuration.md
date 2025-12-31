@@ -1,6 +1,6 @@
 <h1 align="center">
   <br>
-  <strong> Eclipse 安装指南 </strong>
+  <strong> Hadoop 安装指南 </strong>
   <br>
 </h1>
 
