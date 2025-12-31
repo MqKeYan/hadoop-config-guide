@@ -6,8 +6,8 @@
 
 <p align="center">
   Languages:
-  <a href="../SC/Eclipse%20Installation.md"> 简体中文 </a> ·
-  <a href="../EN/Eclipse%20Installation_en.md"> English </a>
+  <a href="../SC/Hadoop%20Installation.md"> 简体中文 </a> ·
+  <a href="../EN/Hadoop%20Installation_en.md"> English </a>
 </p>
 
 1. **确认 Java 环境**  
