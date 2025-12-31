@@ -1,0 +1,39 @@
+<configuration>
+
+    <!-- HDFS 副本数（3 节点建议 2） -->
+    <property>
+        <name>dfs.replication</name>
+        <value>2</value>
+    </property>
+
+    <!-- NameNode 元数据存储目录 -->
+    <property>
+        <name>dfs.namenode.name.dir</name>
+        <value>file:///data/hadoop/hdfs/namenode</value>
+    </property>
+
+    <!-- DataNode 数据块存储目录 -->
+    <property>
+        <name>dfs.datanode.data.dir</name>
+        <value>file:///data/hadoop/hdfs/datanode</value>
+    </property>
+
+    <!-- Web UI 访问权限 -->
+    <property>
+        <name>dfs.permissions.enabled</name>
+        <value>false</value>
+    </property>
+
+    <!-- HDFS Web UI 地址 -->
+    <property>
+        <name>dfs.namenode.http-address</name>
+        <value>master:9870</value>
+    </property>
+
+    <!-- DataNode 允许的最大传输线程 -->
+    <property>
+        <name>dfs.datanode.max.transfer.threads</name>
+        <value>4096</value>
+    </property>
+
+</configuration>
