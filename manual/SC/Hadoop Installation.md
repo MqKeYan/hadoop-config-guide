@@ -34,7 +34,11 @@
   <img src="../../image/Hadoop%20Installation%20Diagram/P.png" width="60%">
 </p>
 
-
+4. **配置环境变量**  
+   输入`vim /home/user/.bash_profile`编辑环境变量文件，根据[环境变量文件](../../notes/home/user/.bash_profile)在原有的`Java 环境变量`后面添加`Hadoop 的环境变量`，输入`source /home/user/.bash_profile`使环境变量生效，输入`hadoop version`查询安装详情，出现例如`Hadoop 3.4.2`的版本信息表示安装成功。操作如图：  
+<p align="center">
+  <img src="../../image/Hadoop%20Installation%20Diagram/P.png" width="60%">
+</p>
 
 ---
 <p align="center">
