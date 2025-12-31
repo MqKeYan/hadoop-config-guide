@@ -82,7 +82,7 @@
 ## Hadoop 集群搭建
 
 - **Hadoop 安装**  
-  在各服务器节点上安装 Hadoop 并配置相应的运行环境变量，确保 Spark 与已部署的 Java 版本兼容。具体步骤请参考[Hadoop 安装详情](manual/.md)。
+  在各服务器节点上安装 Hadoop 并配置相应的运行环境变量，确保 Hadoop 与已部署的 Java 版本兼容。具体步骤请参考[Hadoop 安装详情](manual/SC/hadoop%20Installation.md)。
 - **Hadoop 基础配置**  
   配置`core-site.xml`、`hdfs-site.xml`、`mapred-site.xml`、`yarn-site.xml`等Hadoop的关键配置文件，完成分布式集群的基础搭建。具体步骤请参考[Hadoop 基础配置详情](manual/.md)。
 - **Hadoop 验证**  
