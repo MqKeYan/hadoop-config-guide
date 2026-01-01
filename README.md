@@ -90,7 +90,7 @@
 - **集群子机配置**  
   将 Hadoop 主机的文件复制到各个从节点，具体步骤请参考[集群子机配置](manual/SC/Worker%20Node%20Configuration.md)。
 - **Hadoop 验证**  
-  完成 NameNode 初始化与 HDFS 格式化操作，依次启动 HDFS 与 YARN 服务，确保各节点正常注册并处于可用状态。具体步骤请参考[Hadoop 验证详情](manual/.md)。
+  完成 NameNode 初始化与 HDFS 格式化操作，依次启动 HDFS 与 YARN 服务，确保各节点正常注册并处于可用状态。具体步骤请参考[Hadoop 验证详情](manual/SC/Hadoop%20Validation.md)。
 
 ## Spark 集群搭建
 
