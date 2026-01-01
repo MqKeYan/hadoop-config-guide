@@ -47,13 +47,13 @@ hdfs namenode -format
 5. **Web 运行验证**  
    在`Master`的`Firefox`浏览器上分别进入`http://Master:9870`和`http://Master:8088`网页检查 HDFS 和 YARN 的 Web 访问是否正常。操作如图：
 <p align="center">
-  <img src="../../image/Hadoop%20Validation%20Diagram/P7.png" width="60%">
+  <img src="../../image/Hadoop%20Validation%20Diagram/P7.png" width="80%">
 </p>
 <p align="center">
-  <img src="../../image/Hadoop%20Validation%20Diagram/P8.png" width="60%">
+  <img src="../../image/Hadoop%20Validation%20Diagram/P8.png" width="80%">
 </p>
 <p align="center">
-  <img src="../../image/Hadoop%20Validation%20Diagram/P9.png" width="60%">
+  <img src="../../image/Hadoop%20Validation%20Diagram/P9.png" width="80%">
 </p>
 
 6. **关闭 Hadoop**  
