@@ -83,10 +83,10 @@
 
 - **Hadoop 安装**  
   在各服务器节点上安装 Hadoop 并配置相应的运行环境变量，确保 Hadoop 与已部署的 Java 版本兼容。具体步骤请参考[Hadoop 安装详情](manual/SC/Hadoop%20Installation.md)。
-- **Hadoop 环境变量文件配置**  
+- **Hadoop 环境变量配置**  
   配置`hadoop-env.sh`、`yarn-env.sh`等 Hadoop 的环境变量文件，具体步骤请参考[Hadoop 环境变量文件详情](manual/SC/Hadoop%20Environment%20Variables%20Configuration.md)。
-- **Hadoop 核心组件文件配置**  
-  配置`core-site.xml`、`hdfs-site.xml`、`mapred-site.xml`、`yarn-site.xml`等 Hadoop 的核心文件，具体步骤请参考[Hadoop 核心组件文件详情](manual/SC/Hadoop%20Core%20Configuration.md)。
+- **Hadoop 核心组件配置**  
+  配置`core-site.xml`、`hdfs-site.xml`、`mapred-site.xml`、`yarn-site.xml`等 Hadoop 的核心文件，具体步骤请参考[Hadoop 核心组件详情](manual/SC/Hadoop%20Core%20Configuration.md)。
 - **Hadoop 验证**  
   完成 NameNode 初始化与 HDFS 格式化操作，依次启动 HDFS 与 YARN 服务，确保各节点正常注册并处于可用状态。具体步骤请参考[Hadoop 验证详情](manual/.md)。
 
