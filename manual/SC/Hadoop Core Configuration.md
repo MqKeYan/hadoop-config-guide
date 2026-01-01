@@ -1,6 +1,6 @@
 <h1 align="center">
   <br>
-  <strong> Hadoop 核心文件配置指南 </strong>
+  <strong> Hadoop 核心组件配置指南 </strong>
   <br>
 </h1>
 
