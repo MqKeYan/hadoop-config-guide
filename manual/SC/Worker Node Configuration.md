@@ -16,7 +16,7 @@
   <img src="../../image/Worker%20Node%20Configuration%20Diagram/P.png" width="80%">
 
 2. **配置环境变量**  
-   输入`vim /home/user/.bash_profile`编辑环境变量文件，先按下键盘上的`i`键进入编辑状态，再根据[环境变量文件](../../notes/home/user/.bash_profile)添加环境变量，完成后先按下键盘上的`ESC`键，再输入`:wq`后按回车键进行保存，输入`source /home/user/.bash_profile`使环境变量生效。操作如图：  
+   输入`vim /home/user/.bash_profile`编辑环境变量文件，先按下键盘上的`i`键进入编辑状态，再根据[环境变量文件](../../notes/home/user/.bash_profile)在原有的`Java 环境变量`后面添加`Hadoop 的环境变量`，完成后先按下键盘上的`ESC`键，再输入`:wq`后按回车键进行保存，输入`source /home/user/.bash_profile`使环境变量生效。操作如图：  
    **注：**
    注意将`/home/user/`中的`user`改为实际的系统用户名
 <p align="center">
