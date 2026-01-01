@@ -29,7 +29,7 @@
 3. **配置 yarn-site.xml 文件**  
    输入`vim $HADOOP_HOME/etc/hadoop/yarn-site.xml`编辑 yarn-site.xml 文件，先按下键盘上的`i`键进入编辑状态，再根据[yarn-site.xml 文件](../../notes/home/user/hadoop-3.4.2/etc/hadoop/yarn-site.xml)编辑文件，完成后先按下键盘上的`ESC`键，再输入`:wq`后按回车键进行保存。操作如图：  
    **注：**
-   注意将`/home/user/`中的`user`改为实际的系统用户名，不要复制 yarn-site.xml 文件里面的注释，创建的文件夹地址改为实际需要创建的。
+   注意不要复制 yarn-site.xml 文件里面的注释，创建的文件夹地址改为实际需要创建的。
 <p align="center">
   <img src="../../image/Hadoop%20Core%20Configuration%20Diagram/P3.png" width="60%">
 </p>
@@ -37,7 +37,7 @@
 4. **配置 mapred-site.xml 文件**  
    输入`vim $HADOOP_HOME/etc/hadoop/mapred-site.xml`编辑 mapred-site.xml 文件，先按下键盘上的`i`键进入编辑状态，再根据[mapred-site.xml 文件](../../notes/home/user/hadoop-3.4.2/etc/hadoop/mapred-site.xml)编辑文件，完成后先按下键盘上的`ESC`键，再输入`:wq`后按回车键进行保存。操作如图：  
    **注：**
-   注意将`/home/user/`中的`user`改为实际的系统用户名，不要复制 mapred-site.xml 文件里面的注释，创建的文件夹地址改为实际需要创建的。
+   注意不要复制 mapred-site.xml 文件里面的注释，创建的文件夹地址改为实际需要创建的。
 <p align="center">
   <img src="../../image/Hadoop%20Core%20Configuration%20Diagram/P4.png" width="60%">
 </p>
