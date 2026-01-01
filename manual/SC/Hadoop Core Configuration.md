@@ -6,8 +6,8 @@
 
 <p align="center">
   Languages:
-  <a href="../SC/Hadoop%20Configuration.md"> 简体中文 </a> ·
-  <a href="../EN/Hadoop%20Configuration_en.md"> English </a>
+  <a href="../SC/Hadoop%20Core%20Configuration.md"> 简体中文 </a> ·
+  <a href="../EN/Hadoop%20Core%20Configuration_en.md"> English </a>
 </p>
 
 1. **配置 core-site.xml 文件**  
