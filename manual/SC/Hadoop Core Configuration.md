@@ -42,6 +42,14 @@
   <img src="../../image/Hadoop%20Core%20Configuration%20Diagram/P4.png" width="60%">
 </p>
 
+5. **配置 workers 文件**  
+   输入`vim $HADOOP_HOME/etc/hadoop/workers`编辑 workers 文件，先按下键盘上的`i`键进入编辑状态，再根据[workers 文件](../../notes/home/user/hadoop-3.4.2/etc/hadoop/workers)编辑文件，完成后先按下键盘上的`ESC`键，再输入`:wq`后按回车键进行保存。操作如图：  
+   **注：**
+   注意在 Hadoop 3.x 中将原本的 slaves 改为了 workers，不要复制 workers 文件里面的注释，创建的文件夹地址改为实际需要创建的。
+<p align="center">
+  <img src="../../image/Hadoop%20Core%20Configuration%20Diagram/P5.png" width="60%">
+</p>
+
 ---
 <p align="center">
   <a href="../../README.md"><strong> 返回主页 </strong></a>
