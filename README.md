@@ -65,7 +65,7 @@
 - **虚拟机克隆**  
   通过克隆第1台虚拟机创建出额外2个虚拟机，以此来搭建 Hadoop 集群。具体步骤请参考[虚拟机克隆详情](manual/SC/Server%20Cloning.md)。
 - **虚拟网络配置**  
-  在 VMware Workstation 中通过`虚拟网络编辑器`配置服务器的IP，确保虚拟机能够正常访问本地 PC 的网络。具体步骤请参考[虚拟网络配置详情](manual/SC/Virtual%20Network%20Editor.md)。
+  在 VMware Workstation 中通过`虚拟网络编辑器`配置服务器的IP，确保虚拟机能够正常访问本地 PC 的网络。具体步骤请参考[虚拟网络配置详情](manual/SC/Virtual%20Network%20Configuration.md)。
 - **集群基础配置**  
   将第1台虚拟机作为集群的主机，其余2台虚拟机作为集群的子机，然后对虚拟机进行集群基础配置。具体步骤请参考[集群基础配置详情](manual/SC/Basic%20Cluster%20Configuration.md)。
 - **Xshell 与 Xftp 配置**  
