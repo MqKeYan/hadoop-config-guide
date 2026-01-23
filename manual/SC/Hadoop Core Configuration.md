@@ -47,7 +47,7 @@
    **注：**
    在 Hadoop 3.x 中将原本的 slaves 改为了 workers，不要复制 workers 文件里面的注释，创建的文件夹地址改为实际需要创建的。
 <p align="center">
-  <img src="../../image/Hadoop%20Core%20Configuration%20Diagram/P5.png" width="60%">
+  <img src="../../image/Hadoop%20Core%20Configuration%20Diagram/P.png" width="60%">
 </p>
 
 ---
