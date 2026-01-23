@@ -9,9 +9,33 @@
     <!-- ResourceManager 主机 -->
     <property>
         <name>yarn.resourcemanager.hostname</name>
-        <value>Master</value>  #集群 ResourceManager 所在的主机名称，需要注意大小写，请根据实际的主机名称编辑，也可以填写主机的 IP 地址。生产环境配置的不再是单个 hostname，而是使用例如 yarn.resourcemanager.cluster-id + rm1/rm2 等的形式，但是原理一样
+        <value>Master</value>  #集群 ResourceManager 所在的主机名称，需要注意大小写，请根据实际的主机名称编辑，也可以填写主机的 IP 地址。
     </property>
 
+    <!-- 关键：ResourceManager 绑定到所有网卡 -->
+    <property>
+        <name>yarn.resourcemanager.bind-host</name>
+        <value>0.0.0.0</value>
+    </property>
+    
+    <!-- RM 各服务地址 -->
+    <property>
+        <name>yarn.resourcemanager.address</name>
+        <value>Master:8032</value>
+    </property>
+    <property>
+        <name>yarn.resourcemanager.scheduler.address</name>
+        <value>Master:8030</value>
+    </property>
+    <property>
+        <name>yarn.resourcemanager.resource-tracker.address</name>
+        <value>Master:8031</value>
+    </property>
+    <property>
+        <name>yarn.resourcemanager.admin.address</name>
+        <value>Master:8033</value>
+    </property>
+    
     <!-- NodeManager 可用内存（单位 MB） -->
     <property>
         <name>yarn.nodemanager.resource.memory-mb</name>
