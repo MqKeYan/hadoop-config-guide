@@ -10,7 +10,7 @@ export JRE_HOME=$JAVA_HOME
 export PATH=$JAVA_HOME/bin:$PATH
 
 # ===============================
-# 下面是 Hadoop 的配置，请在配置hadoop的时候添加
+# 下面是 Hadoop 的配置，请在配置 hadoop 的时候添加
 # ===============================
 export HADOOP_HOME=/home/user/hadoop-3.4.2  #注意这里的“/home/user/hadoop-3.4.2”改为实际的安装目录
 export HADOOP_CONF_DIR=$HADOOP_HOME/etc/hadoop
@@ -20,3 +20,9 @@ export HADOOP_OPTS="-Djava.library.path=$HADOOP_HOME/lib/native"
 export YARN_HOME=$HADOOP_HOME
 export MAPRED_HOME=$HADOOP_HOME
 export HDFS_HOME=$HADOOP_HOME
+
+# ===============================
+# 下面是 Spark 的配置，请在配置 Spark 的时候添加
+# ===============================
+export SPARK_HOME=/home/user/Spark
+export PATH=$PATH:$SPARK_HOME/bin:$SPARK_HOME/sbin
