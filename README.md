@@ -95,9 +95,9 @@
 ## Spark 集群搭建
 
 - **Spark 安装**  
-  在各服务器节点上安装 Spark 并配置相应的运行环境变量，确保 Spark 与已部署的 Hadoop 版本兼容。具体步骤请参考[Spark 安装详情](manual/.md)。
+  在各服务器节点上安装 Spark 并配置相应的运行环境变量，确保 Spark 与已部署的 Hadoop 版本兼容。具体步骤请参考[Spark 安装详情](manual/SC/Spark%20Installation.md)。
 - **Spark 基础配置**  
-  通过配置`spark-env.sh`与`spark-defaults.conf`等文件，对 Spark 相关的策略进行统一管理，优化 Spark 执行效率和集群资源利用率。具体步骤请参考[Spark 基础配置详情](manual/SC/Spark%20Installation.md)。
+  通过配置`spark-env.sh`与`spark-defaults.conf`等文件，对 Spark 相关的策略进行统一管理，优化 Spark 执行效率和集群资源利用率。具体步骤请参考[Spark 基础配置详情](manual/SC/.md)。
 - **Spark on YARN 集成配置**  
   将 Spark 部署在 YARN 资源管理框架之上，使 Spark 作业以 YARN Application 的形式运行，由 ResourceManager 统一进行资源调度与管理。具体步骤请参考[Spark on YARN 集成配置详情](manual/.md)。
 - **Spark 验证**  
