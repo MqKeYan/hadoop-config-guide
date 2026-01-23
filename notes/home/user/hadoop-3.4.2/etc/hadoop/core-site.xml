@@ -3,7 +3,7 @@
     <!-- HDFS 的访问入口（NameNode RPC 地址） -->
     <property>
         <name>fs.defaultFS</name>
-        <value>hdfs://master:9000</value>
+        <value>hdfs://Master:9000</value>
     </property>
 
     <!-- Hadoop 临时数据目录（非常重要） -->
