@@ -37,13 +37,13 @@
    **注：**
    注意将`/home/user/`中的`user`改为实际的系统用户名
 <p align="center">
-  <img src="../../image/Spark%20Installation%20Diagram/P.png" width="60%">
+  <img src="../../image/Spark%20Installation%20Diagram/P4.png" width="60%">
 </p>
 <p align="center">
-  <img src="../../image/Spark%20Installation%20Diagram/P.png" width="60%">
+  <img src="../../image/Spark%20Installation%20Diagram/P5.png" width="60%">
 </p>
 
-4. **验证安装**  
+5. **验证安装**  
    输入`spark-shell --version`查询安装详情，出现例如`version 3.5.7`的版本信息表示安装成功。操作如图：
 <p align="center">
   <img src="../../image/Spark%20Installation%20Diagram/P6.png" width="60%">
