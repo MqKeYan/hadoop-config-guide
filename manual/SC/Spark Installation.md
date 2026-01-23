@@ -26,6 +26,12 @@
   <img src="../../image/Spark%20Installation%20Diagram/P.png" width="60%">
 </p>
 
+3. **文件夹重命名**  
+   输入`mv spark-3.5.7-bin-hadoop3 Spark`将文件夹重命名为`Spark`，使用`ls`确认重命名是否成功,出现例如`Spark`的文件夹说明成功。操作如图：  
+<p align="center">
+  <img src="../../image/Spark%20Installation%20Diagram/P.png" width="60%">
+</p>
+
 4. **配置环境变量**  
    输入`vim /home/user/.bash_profile`编辑环境变量文件，先按下键盘上的`i`键进入编辑状态，再根据[环境变量文件](../../notes/home/user/.bash_profile)在原有的`Java 环境变量`后面添加`Hadoop 的环境变量`，完成后先按下键盘上的`ESC`键，再输入`:wq`后按回车键进行保存，输入`source /home/user/.bash_profile`使环境变量生效。操作如图：  
    **注：**
@@ -34,8 +40,8 @@
   <img src="../../image/Spark%20Installation%20Diagram/P.png" width="60%">
 </p>
 
-5. **验证安装**  
-   输入`hadoop version`查询安装详情，出现例如`Hadoop 3.4.2`的版本信息表示安装成功。操作如图：
+4. **验证安装**  
+   输入`spark-shell --version`查询安装详情，出现例如`version 3.5.7`的版本信息表示安装成功。操作如图：
 <p align="center">
   <img src="../../image/Spark%20Installation%20Diagram/P.png" width="60%">
 </p>
