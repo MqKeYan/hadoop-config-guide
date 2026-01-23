@@ -88,7 +88,7 @@
 - **Hadoop 核心组件配置**  
   配置`core-site.xml`、`hdfs-site.xml`、`mapred-site.xml`、`yarn-site.xml`等 Hadoop 的核心文件，具体步骤请参考[Hadoop 核心组件详情](manual/SC/Hadoop%20Core%20Configuration.md)。
 - **集群子机配置**  
-  将 Hadoop 主机的文件复制到各个从节点，具体步骤请参考[Hadoop子机配置详情](manual/SC/Hadoop%20Worker%20Node%20Configuration.md)。
+  将 Hadoop 主机的文件复制到各个从节点，具体步骤请参考[Hadoop 子机配置详情](manual/SC/Hadoop%20Worker%20Node%20Configuration.md)。
 - **Hadoop 验证**  
   完成 NameNode 初始化与 HDFS 格式化操作，依次启动 HDFS 与 YARN 服务，确保各节点正常注册并处于可用状态。具体步骤请参考[Hadoop 验证详情](manual/SC/Hadoop%20Validation.md)。
 
@@ -99,7 +99,7 @@
 - **Spark 基础配置**  
   通过配置`spark-env.sh`与`spark-defaults.conf`等文件，对 Spark 相关的策略进行统一管理，优化 Spark 执行效率和集群资源利用率。具体步骤请参考[Spark 基础配置详情](manual/SC/Spark%20Configuration.md)。
 - **集群子机配置**  
-  将 Spark 主机的文件复制到各个从节点，具体步骤请参考[Spark子机配置详情](manual/SC/Spark%20Worker%20Node%20Configuration.md)。
+  将 Spark 主机的文件复制到各个从节点，具体步骤请参考[Spark 子机配置详情](manual/SC/Spark%20Worker%20Node%20Configuration.md)。
 - **Spark 验证**  
   通过提交示例 Spark 程序或实际数据分析任务，验证 Spark 集群与 Hadoop 集群的协同工作能力，同时结合 YARN Web UI 观察 Spark 作业的运行状态，确保 Spark 计算环境稳定可用。具体步骤请参考[Spark 验证详情](manual/SC/Spark%20Validation.md)。
 
