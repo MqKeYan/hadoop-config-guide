@@ -22,17 +22,11 @@
   <img src="../../image/Spark%20Configuration%20Diagram/P.png" width="60%">
 </p>
 
-5. **Web 运行验证**  
-   在`Master`的`Firefox`浏览器上分别进入`http://Master:9870`和`http://Master:8088`网页检查 HDFS 和 YARN 的 Web 访问是否正常。操作如图：
-
-
-6. **关闭 Hadoop**  
-   在`Msater`上分别使用`stop-dfs.sh`和`stop-yarn.sh`指令关闭`HDFS`和`YARN`。操作如图：
-
-
-7. **进程关闭验证**  
-   分别在服务器各个节点上使用`jps`检查进程是否正常关闭，`Master`节点没有出现`NameNode`、`SecondaryNameNode`和`ResourceManager`等输出，`Slave1`和`Slave2`节点没有出现`DataNode`和`NodeManager`等输出。操作如图：
-
+3. **运行测试验证**  
+   在`Master`上依次输入`spark-submit \`、`--class org.apache.spark.examples.SparkPi \`、`--master yarn \`、`--deploy-mode cluster \`、`/home/user/Spark/examples/jars/spark-examples_2.12-3.5.7.jar \`和`10`运行官方的验证测试。操作如图：
+<p align="center">
+  <img src="../../image/Spark%20Configuration%20Diagram/P.png" width="60%">
+</p>
 
 ---
 <p align="center">
