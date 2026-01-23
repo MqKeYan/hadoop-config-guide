@@ -88,7 +88,7 @@
 - **Hadoop 核心组件配置**  
   配置`core-site.xml`、`hdfs-site.xml`、`mapred-site.xml`、`yarn-site.xml`等 Hadoop 的核心文件，具体步骤请参考[Hadoop 核心组件详情](manual/SC/Hadoop%20Core%20Configuration.md)。
 - **集群子机配置**  
-  将 Hadoop 主机的文件复制到各个从节点，具体步骤请参考[集群子机配置](manual/SC/Worker%20Node%20Configuration.md)。
+  将 Hadoop 主机的文件复制到各个从节点，具体步骤请参考[Hadoop子机配置详情](manual/SC/Hadoop%20Worker%20Node%20Configuration.md)。
 - **Hadoop 验证**  
   完成 NameNode 初始化与 HDFS 格式化操作，依次启动 HDFS 与 YARN 服务，确保各节点正常注册并处于可用状态。具体步骤请参考[Hadoop 验证详情](manual/SC/Hadoop%20Validation.md)。
 
@@ -98,33 +98,10 @@
   在各服务器节点上安装 Spark 并配置相应的运行环境变量，确保 Spark 与已部署的 Hadoop 版本兼容。具体步骤请参考[Spark 安装详情](manual/SC/Spark%20Installation.md)。
 - **Spark 基础配置**  
   通过配置`spark-env.sh`与`spark-defaults.conf`等文件，对 Spark 相关的策略进行统一管理，优化 Spark 执行效率和集群资源利用率。具体步骤请参考[Spark 基础配置详情](manual/SC/Spark%20Configuration.md)。
+- **集群子机配置**  
+  将 Spark 主机的文件复制到各个从节点，具体步骤请参考[Spark子机配置详情](manual/SC/Spark%20Worker%20Node%20Configuration.md)。
 - **Spark 验证**  
-  通过提交示例 Spark 程序或实际数据分析任务，验证 Spark 集群与 Hadoop 集群的协同工作能力，同时结合 YARN Web UI 观察 Spark 作业的运行状态，确保 Spark 计算环境稳定可用。具体步骤请参考[Spark 验证详情](manual/.md)。
-
-## 高级功能与扩展（暂时未编辑）
-
-- **性能优化**  
-  对 Hadoop 与 Spark 集群进行调优，包括 HDFS 副本策略优化、YARN 资源分配调整、Spark Executor 内存与并行度优化，以提升大数据计算效率与吞吐量。
-- **安全与权限管理**  
-  通过示例程序引导用户编写 MapReduce 作业，深入理解分布式计算执行流程。
-- **监控与运维**  
-  集成集群监控工具（如 Ambari、Ganglia、Prometheus + Grafana），实现节点状态监控、作业性能监控以及告警通知，提高集群可维护性。
-- **数据备份与容错**  
-  配置 HDFS 高可用（HA）、NameNode 自动故障切换及快照机制，保证关键数据持久化与任务容错能力。
-- **扩展组件集成**  
-  将 Hive、HBase、Kafka 等组件与 Hadoop/Spark 集群集成，支持大数据存储、流处理和实时计算功能扩展。
-- **作业调度与自动化**  
-  集成 Matplotlib、Seaborn、Plotly 或 Zeppelin、Jupyter 等工具，将分析结果可视化，实现实验数据直观展示与报告生成。
-- **多租户与资源隔离**  
-  配置 YARN 容器队列、多租户隔离策略及资源池管理，实现多业务同时运行而互不影响，提升集群利用率。
-- **日志管理与审计**  
-  集中收集 Hadoop/Spark 日志，通过 ELK（Elasticsearch + Logstash + Kibana）或 Splunk 做日志分析和审计，便于故障定位与合规管理。
-- **数据质量管理**  
-  使用 Apache Griffin 或自定义校验规则，对数据源进行完整性、准确性和一致性检查，保证生产数据可靠性。
-- **性能基准测试**  
-  定期使用 TeraSort、HiBench 等基准测试工具评估集群性能，检测性能瓶颈并指导扩容或优化策略。
-- **灾备与跨机房部署**  
-  配置异地备份、跨机房 Hadoop 集群同步，确保关键业务在硬件或网络故障情况下仍能正常运行。
+  通过提交示例 Spark 程序或实际数据分析任务，验证 Spark 集群与 Hadoop 集群的协同工作能力，同时结合 YARN Web UI 观察 Spark 作业的运行状态，确保 Spark 计算环境稳定可用。具体步骤请参考[Spark 验证详情](manual/SC/Spark%20Validation.md)。
 
 ## 讨论与交流
 
