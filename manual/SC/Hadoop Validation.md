@@ -24,8 +24,6 @@
   <img src="../../image/Hadoop%20Validation%20Diagram/P2.png" width="60%">
 </p>
 
-hdfs namenode -format
-
 3. **启动 Hadoop**  
    在`Msater`上分别使用`start-dfs.sh`和`start-yarn.sh`指令启动`HDFS`和`YARN`。操作如图：
 <p align="center">
