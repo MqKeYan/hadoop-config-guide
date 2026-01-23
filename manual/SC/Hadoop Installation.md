@@ -27,7 +27,7 @@
 </p>
 
 3. **解压安装包**  
-   输入`tar -zxvf hadoop-3.4.2.tar.gz`解压安装包，使用`ls`确认解压是否成功,出现`Hadoop-3.4.2`文件夹说明成功。操作如图：  
+   输入`tar -zxvf hadoop-3.4.2.tar.gz`解压安装包，使用`ls`确认解压是否成功,出现例如`Hadoop-3.4.2`的文件夹说明成功。操作如图：  
    **注：**
    将`hadoop-3.4.2.tar.gz`改为实际的安装包名称。
 <p align="center">
