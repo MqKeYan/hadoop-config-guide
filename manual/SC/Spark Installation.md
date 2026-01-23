@@ -19,11 +19,11 @@
 </p>
 
 2. **解压安装包**  
-   输入`tar -zxvf spark-3.5.7-bin-hadoop3.tgz`解压安装包，使用`ls`确认解压是否成功,出现`Hadoop-3.4.2`文件夹说明成功。操作如图：  
+   输入`tar -zxvf spark-3.5.7-bin-hadoop3.tgz`解压安装包，使用`ls`确认解压是否成功,出现例如`spark-3.5.7-bin-hadoop3`的文件夹说明成功。操作如图：  
    **注：**
    将`spark-3.5.7-bin-hadoop3.tgz`改为实际的安装包名称。
 <p align="center">
-  <img src="../../image/Hadoop%20Installation%20Diagram/P3.png" width="60%">
+  <img src="../../image/Spark%20Installation%20Diagram/P.png" width="60%">
 </p>
 
 4. **配置环境变量**  
@@ -31,13 +31,13 @@
    **注：**
    注意将`/home/user/`中的`user`改为实际的系统用户名
 <p align="center">
-  <img src="../../image/Hadoop%20Installation%20Diagram/P4.png" width="60%">
+  <img src="../../image/Spark%20Installation%20Diagram/P.png" width="60%">
 </p>
 
 5. **验证安装**  
    输入`hadoop version`查询安装详情，出现例如`Hadoop 3.4.2`的版本信息表示安装成功。操作如图：
 <p align="center">
-  <img src="../../image/Hadoop%20Installation%20Diagram/P5.png" width="60%">
+  <img src="../../image/Spark%20Installation%20Diagram/P.png" width="60%">
 </p>
 
 ---
