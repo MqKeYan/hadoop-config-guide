@@ -22,7 +22,7 @@
 </p>
 
 3. **验证安装**  
-   输入`hadoop version`查询安装详情，出现例如`Hadoop 3.4.2`的版本信息表示安装成功。操作如图：
+   输入`spark-shell --version`查询安装详情，出现例如`version 3.5.7`的版本信息表示安装成功。操作如图：
 <p align="center">
   <img src="../../image/Spark%20Worker%20Node%20Configuration%20Diagram/P.png" width="60%">
 </p>
