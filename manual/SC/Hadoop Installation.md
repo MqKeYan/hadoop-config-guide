@@ -19,9 +19,9 @@
 </p>
 
 2. **确认安装包**  
-   在`用户根目录`上输入`ls`查询安装包版本是否正确版本信息。操作如图：  
+   在`用户根目录`上输入`ls`查询安装包版本是否正确版本信息，出现例如`hadoop-3.4.2.tar.gz`的安装包说明安装包正确。操作如图：  
    **注：**
-   `用户根目录`是Xshell 连接 Master 服务器的默认地址，也就是`/home/user/`目录，其中`user`是你的用户名，可以使用`cd /home/user/`或者`cd ~`返回用户根目录。
+   `用户根目录`是 Xshell 连接 Master 服务器的默认地址，也就是`/home/user/`目录，其中`user`是你的用户名，可以使用`cd /home/user/`或者`cd ~`返回用户根目录。
 <p align="center">
   <img src="../../image/Hadoop%20Installation%20Diagram/P2.png" width="60%">
 </p>
