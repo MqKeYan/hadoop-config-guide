@@ -79,7 +79,7 @@
 - **Eclipse 安装**  
   在服务器主机上安装 Eclipse 集成开发环境，用于后续 Hadoop 与 Spark 项目的开发、调试与运行。具体步骤请参考[Eclipse 安装详情](manual/SC/Eclipse%20Installation.md)。
 - **防火墙配置**  
-  在服务器主机上配置防火墙规则，保证集群之间的正常连通。具体步骤请参考[防火墙配置](manual/SC/Firewall%20Installation.md)。
+  在服务器主机上配置防火墙规则，保证集群之间的正常连通。具体步骤请参考[防火墙配置详情](manual/SC/Firewall%20Installation.md)。
 
 ## Hadoop 集群搭建
 
