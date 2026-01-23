@@ -1,6 +1,6 @@
 <h1 align="center">
   <br>
-  <strong> 集群子机配置指南 </strong>
+  <strong> Hadoop子机配置指南 </strong>
   <br>
 </h1>
 
