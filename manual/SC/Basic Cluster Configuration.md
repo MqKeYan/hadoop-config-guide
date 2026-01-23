@@ -109,17 +109,6 @@
   <img src="../../image/Basic%20Cluster%20Configuration%20Diagram/P24.png" width="80%">
 </p>
 
-10. **防火墙设置**  
-   在`Master`服务器中，点击左上角状态栏，再点击`终端`图标进入终端界面。在`终端`里面输入`systemctl stop firewalld`关闭，如果 hosts 文件配置正确就会有相应的 ping 反馈。其他两台服务器子机也执行相同操作，关闭防火墙。操作如图：  
-  **注：**
-  关闭防火墙有风险，这里只适用于教学环境。
-<p align="center">
-  <img src="../../image/Basic%20Cluster%20Configuration%20Diagram/P25.png" width="80%">
-</p>
-<p align="center">
-  <img src="../../image/Basic%20Cluster%20Configuration%20Diagram/P26.png" width="80%">
-</p>
-
 ---
 <p align="center">
   <a href="../../README.md"><strong> 返回主页 </strong></a>
