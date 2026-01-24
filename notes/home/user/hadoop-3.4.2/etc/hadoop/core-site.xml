@@ -1,32 +1,26 @@
 <configuration>
-
     <!-- HDFS 的访问入口（NameNode RPC 地址） -->
     <property>
         <name>fs.defaultFS</name>
         <value>hdfs://Master:9000</value>
     </property>
-
     <!-- Hadoop 临时数据目录（非常重要） -->
     <property>
         <name>hadoop.tmp.dir</name>
         <value>/home/user/hadoopdata</value>  #注意user改为实际用户名
     </property>
-
     <!-- HDFS 客户端操作的默认权限 -->
     <property>
         <name>hadoop.proxyuser.user.hosts</name>
         <value>*</value>  #教学环境设置*方便调试，生产环境请根据实际情况进行限制，防止安全隐患
     </property>
-
     <property>
         <name>hadoop.proxyuser.user.groups</name>
         <value>*</value>  #教学环境设置*方便调试，生产环境请根据实际情况进行限制，防止安全隐患
     </property>
-
     <!-- IO 缓冲区大小（性能优化） -->
     <property>
         <name>io.file.buffer.size</name>
         <value>131072</value>  #根据集群的实际规模设置字节，教学环境 128KB 足够。数值过小性能降低，数值过大占用内存。
     </property>
-
 </configuration>
