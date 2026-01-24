@@ -1,6 +1,6 @@
 <h1 align="center">
   <br>
-  <strong> hadoop-config-guide </strong>
+  <strong> Hadoop Config Guide </strong>
   <br>
 </h1>
 
