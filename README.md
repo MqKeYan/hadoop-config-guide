@@ -106,9 +106,8 @@
   通过提交示例 Spark 程序或实际数据分析任务，验证 Spark 集群与 Hadoop 集群的协同工作能力，同时结合 YARN Web UI 观察 Spark 作业的运行状态，确保 Spark 计算环境稳定可用。具体步骤请参考[Spark 验证详情](manual/SC/Spark%20Validation.md)。
 
 ## 讨论与交流
-
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;如果你在安装过程中遇到什么问题欢迎在讨论区进行讨论，当然如果你有相应的解决方法也欢迎发布出来作为补充，帮助我完善教程！  
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;欢迎大家在 GitHub 中提出问题、分享想法或讨论改进方案：[讨论入口](../../discussions)
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;如果你在安装过程中遇到任何问题，欢迎在议题区发布讨论；当然，如果你有相应的解决方法或改进建议，也非常欢迎分享出来，帮助我一起完善这份教程！  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;欢迎大家在 GitHub 中提出问题、反馈 Bug 或建议改进方案：[议题入口](../../issues)
 
 ## License
 
