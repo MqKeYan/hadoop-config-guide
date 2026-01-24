@@ -17,10 +17,19 @@
 </p>
 
 2. **检查 yarn 状态**  
-   启动 Hadoop 集群后，在`Master`上输入`yarn node -list`检查 yarn 的运行状态。操作如图：  
+   启动 Hadoop 集群后，在`Master`上输入`yarn node -list`检查 yarn 的运行状态。操作如图：
 <p align="center">
   <img src="../../image/Spark%20Configuration%20Diagram/P.png" width="60%">
 </p>
+
+3. **测试 Spark 运行**  
+   在`Master`上依次输入`spark-submit \`、`--class org.apache.spark.examples.SparkPi \`、`--master yarn \`、`--deploy-mode cluster \`、`/home/user/Spark/examples/jars/spark-examples_2.12-3.5.7.jar \`和`10`运行测试，使用`yarn logs -applicationId application_******`查看 Spark 的日志结果是否正常。操作如图：  
+   **注：**
+   将`yarn logs -applicationId application_******`中的`******`换为实际的地址。
+<p align="center">
+  <img src="../../image/Spark%20Configuration%20Diagram/P.png" width="60%">
+</p>
+
 
 ---
 <p align="center">
