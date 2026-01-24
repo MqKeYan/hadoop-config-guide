@@ -1,33 +1,17 @@
 <configuration>
-
     <!-- 指定 MapReduce 运行在 YARN 上 -->
     <property>
         <name>mapreduce.framework.name</name>
         <value>yarn</value>  #配置 Hadoop MapReduce 的作业默认运行在 YARN 上，这是 Hadoop 3.x 集群模式下运行 MapReduce 的必备设置，也保证后续 Spark on YARN 能无缝使用集群资源
     </property>
-
     <!-- JobHistory Server 地址 -->
     <property>
         <name>mapreduce.jobhistory.address</name>
         <value>Master:10020</value>  #JobHistory Server 所在机器为集群主机，根据实际主机名称编辑，注意大小写，RPC 的默认监听端口为 10020，这是 MapReduce 作业可追踪性和 Web UI 功能的前提
     </property>
-
     <!-- JobHistory Web UI -->
     <property>
         <name>mapreduce.jobhistory.webapp.address</name>
         <value>Master:19888</value>  #JobHistory Server 所在机器为集群主机，根据实际主机名称编辑，注意大小写，HTTP Web UI 默认端口为 19888
     </property>
-
-    <!-- Map 任务内存 -->
-    <property>
-        <name>mapreduce.map.memory.mb</name>
-        <value>1024</value>  #内存太大会导致并行任务减少，集群利用率下降；内存太小会导致任务失败
-    </property>
-
-    <!-- Reduce 任务内存 -->
-    <property>
-        <name>mapreduce.reduce.memory.mb</name>
-        <value>1024</value>  #内存太大会导致并行任务减少，集群利用率下降；内存太小会导致任务失败
-    </property>
-
 </configuration>
