@@ -28,5 +28,5 @@ export SPARK_DIST_CLASSPATH=$($HADOOP_HOME/bin/hadoop classpath)
 ########################
 # 网络与端口
 ########################
-# 避免绑定到 localhost
-export SPARK_LOCAL_IP=0.0.0.0
+# 绑定主机的IP地址
+export SPARK_LOCAL_IP=0.0.0.0  # 请改为你的主机的实际IP地址
