@@ -1,39 +1,32 @@
 <configuration>
-
     <!-- HDFS 副本数 -->
     <property>
         <name>dfs.replication</name>	
         <value>2</value>  #副本数需要小于或者等于节点数量，而可容忍的宕机数 = dfs.replication - 1，但是副本数越高占用的磁盘越多，越能保证数据的容错。教学环境中 3 节点设置 2 副本既能保证最基本数据容错，又不会浪费存储空间。
     </property>
-
     <!-- NameNode 元数据存储目录 -->
     <property>
         <name>dfs.namenode.name.dir</name>
         <value>file:///home/user/hadoopdata/hdfs/namenode</value>  #file://是本地文件系统的前缀，后面的目录可以自行修改，记得要提前创建目录
     </property>
-
     <!-- DataNode 数据块存储目录 -->
     <property>
         <name>dfs.datanode.data.dir</name>
         <value>file:///home/user/hadoopdata/hdfs/datanode</value>  #file://是本地文件系统的前缀，后面的目录可以自行修改，记得要提前创建目录
     </property>
-
     <!-- Web UI 访问权限 -->
     <property>
         <name>dfs.permissions.enabled</name>
         <value>false</value>  #教学环境为了方便使用选择 false 关闭了权限限制，权限设置需要根据实际情况设置，生产环境一定要设置 True 开启权限管理
     </property>
-
     <!-- HDFS Web UI 地址 -->
     <property>
         <name>dfs.namenode.http-address</name>
         <value>Master:9870</value>  #在集群中需要设置 Master（注意主机名大小写要一致）或者对应的 IP 地址方便管理，Hadoop3.x 的默认端口为 9870，可以根据实际情况修改，教学环境推荐不修改
     </property>
-
     <!-- DataNode 允许的最大传输线程 -->
     <property>
         <name>dfs.datanode.max.transfer.threads</name>
         <value>4096</value>  #4096为默认设置，数值过低可能出现在高并发下出现 “连接超时” 或 “DataNode 拒绝连接”，而数值过高会出现CPU 上下文切换过多导致性能反而下降
     </property>
-
 </configuration>
