@@ -22,12 +22,6 @@
   <img src="../../image/Spark%20Configuration%20Diagram/P.png" width="60%">
 </p>
 
-3. **运行测试验证**  
-   在`Master`上依次输入`spark-submit \`、`--class org.apache.spark.examples.SparkPi \`、`--master yarn \`、`--deploy-mode cluster \`、`/home/user/Spark/examples/jars/spark-examples_2.12-3.5.7.jar \`和`10`运行官方的验证测试。操作如图：
-<p align="center">
-  <img src="../../image/Spark%20Configuration%20Diagram/P.png" width="60%">
-</p>
-
 ---
 <p align="center">
   <a href="../../README.md"><strong> 返回主页 </strong></a>
