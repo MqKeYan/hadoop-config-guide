@@ -7,12 +7,12 @@
     <!-- NameNode 元数据存储目录 -->
     <property>
         <name>dfs.namenode.name.dir</name>
-        <value>file:///home/user/hadoopdata/hdfs/namenode</value>  #file://是本地文件系统的前缀，后面的目录可以自行修改，记得要提前创建目录
+        <value>/home/user/hadoopdata/hdfs/namenode</value>  #目录可以自行修改，记得要创建对应目录
     </property>
     <!-- DataNode 数据块存储目录 -->
     <property>
         <name>dfs.datanode.data.dir</name>
-        <value>file:///home/user/hadoopdata/hdfs/datanode</value>  #file://是本地文件系统的前缀，后面的目录可以自行修改，记得要提前创建目录
+        <value>/home/user/hadoopdata/hdfs/datanode</value>  #目录可以自行修改，记得要创建对应目录
     </property>
     <!-- Web UI 访问权限 -->
     <property>
