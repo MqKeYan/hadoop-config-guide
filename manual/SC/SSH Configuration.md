@@ -29,7 +29,9 @@
 </p>
 
 4. **分发公钥**  
-   在`Master`上分别输入`ssh-copy-id Master`、`ssh-copy-id Slave1`和`ssh-copy-id Slave2`将密钥分发到`Master`、`Slave1`和`Slave2`，注意名称的大小写不要写错名称。其中`Are you sure you want to continue connecting (yes/no/[fingerprint])?`是 SSH 首次连接到目标主机时的正常安全提示，直接输入 yes 并回车。出现`password:`的提示时输入用户密码并回车。操作如图：
+   在`Master`上分别输入`ssh-copy-id Master`、`ssh-copy-id Slave1`和`ssh-copy-id Slave2`将密钥分发到`Master`、`Slave1`和`Slave2`。其中`Are you sure you want to continue connecting (yes/no/[fingerprint])?`是 SSH 首次连接到目标主机时的正常安全提示，直接输入 yes 并回车。出现`password:`的提示时输入用户密码并回车。操作如图：  
+   **注：**
+   将`ssh-copy-id Master`、`ssh-copy-id Slave1`和`ssh-copy-id Slave2`中的`Master`、`Slave1`和`Slave2`改为实际的系统用户名，同时注意大小写。
 <p align="center">
   <img src="../../image/SSH%20Configuration%20Diagram/P4.png" width="80%">
 </p>
