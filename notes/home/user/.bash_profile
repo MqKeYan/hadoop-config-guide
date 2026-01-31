@@ -24,5 +24,5 @@ export HDFS_HOME=$HADOOP_HOME
 # =============================================
 # 下面是 Spark 的配置，请在配置 Spark 的时候添加
 # =============================================
-export SPARK_HOME=/home/user/spark  #注意这里的“/home/user/Spark”改为实际的目录
+export SPARK_HOME=/home/user/spark  #注意这里的“/home/user/spark”改为实际的目录
 export PATH=$PATH:$SPARK_HOME/bin:$SPARK_HOME/sbin
