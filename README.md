@@ -39,10 +39,12 @@
   通过[VMware 官网](https://techdocs.broadcom.com/cn/zh-cn/vmware-cis/desktop-hypervisors/workstation-pro/17-0/using-vmware-workstation-pro.html)下载VMware Workstation Pro 25H2 的软件安装包（该版本的软件只有英文，后面对该软件的操作也将采用英文指导）。
 - **操作系统镜像 ISO**  
   通过[CentOS 官网](https://www.centos.org/download)下载 CentOS stream 10的 ISO 镜像作为虚拟机的操作系统。
-- **Hadoop 软件**  
-  通过[Hadoop 官网](https://hadoop.apache.org/releases.html)下载 Hadoop-3.4.2 版本的软件压缩包。
 - **JDK 软件**  
   通过[Java 官网](https://www.oracle.com/cn/java/technologies/downloads/)下载 Java-11.0.29 版本的软件压缩包。
+- **Eclipse 软件**  
+  通过[Eclipse 官网](https://www.eclipse.org/downloads/packages/)下载 Eclipse-2025-12-R 版本的软件压缩包。
+- **Hadoop 软件**  
+  通过[Hadoop 官网](https://hadoop.apache.org/releases.html)下载 Hadoop-3.4.2 版本的软件压缩包。
 - **Spark 软件**  
   通过[Spark 官网](https://spark.apache.org/downloads.html)下载并安装 Spark-3.5.7 版本的软件压缩包。
 - **Xshell 软件**  
