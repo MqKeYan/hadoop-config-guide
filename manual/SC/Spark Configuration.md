@@ -11,7 +11,7 @@
 </p>
 
 1. **配置 spark-env.sh 文件**  
-   输入`vim /home/user/spark/conf/spark-env.sh`编辑`spark-env.sh`文件，先按下键盘上的`i`键进入编辑状态，再根据[spark-env.sh 文件](../../notes/home/user/spark/conf/spark-env.sh)编辑文件，完成后先按下键盘上的`ESC`键，再输入`:wq`后按回车键进行保存。分别输入`mkdir -p /home/user/spark/logs`和`mkdir -p /home/user/spark/pids`创建创建日志和 PID 目录,再输入`chmod 755 /home/user/spark`设置文件夹权限。操作如图：  
+   输入`vim $SPARK_HOME/conf/spark-env.sh`编辑`spark-env.sh`文件，先按下键盘上的`i`键进入编辑状态，再根据[spark-env.sh 文件](../../notes/home/user/spark/conf/spark-env.sh)编辑文件，完成后先按下键盘上的`ESC`键，再输入`:wq`后按回车键进行保存。分别输入`mkdir -p /home/user/spark/logs`和`mkdir -p /home/user/spark/pids`创建创建日志和 PID 目录,再输入`chmod 755 /home/user/spark`设置文件夹权限。操作如图：  
    **注：**
    注意将`/home/user/`中的`user`改为实际的系统用户名，不要复制`spark-env.sh`文件里面的注释，创建的文件夹地址改为实际需要创建的。
 <p align="center">
@@ -22,7 +22,7 @@
 </p>
 
 2. **配置 spark-defaults.conf 文件**  
-   输入`vim /home/user/spark/conf/spark-defaults.conf`编辑`spark-defaults.conf`文件，先按下键盘上的`i`键进入编辑状态，再根据[spark-defaults.conf 文件](../../notes/home/user/spark/conf/spark-defaults.conf)编辑文件，完成后先按下键盘上的`ESC`键，再输入`:wq`后按回车键进行保存。输入`hdfs dfs -mkdir /spark-logs`创建创建日志目录,再输入`hdfs dfs -chmod 777 /spark-logs`设置文件夹权限。操作如图：  
+   输入`vim $SPARK_HOME/conf/spark-defaults.conf`编辑`spark-defaults.conf`文件，先按下键盘上的`i`键进入编辑状态，再根据[spark-defaults.conf 文件](../../notes/home/user/spark/conf/spark-defaults.conf)编辑文件，完成后先按下键盘上的`ESC`键，再输入`:wq`后按回车键进行保存。输入`hdfs dfs -mkdir /spark-logs`创建创建日志目录,再输入`hdfs dfs -chmod 777 /spark-logs`设置文件夹权限。操作如图：  
    **注：**
    注意将`/home/user/`中的`user`改为实际的系统用户名，不要复制`spark-defaults.conf`文件里面的注释，创建的文件夹地址改为实际需要创建的。
 <p align="center">
