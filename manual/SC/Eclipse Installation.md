@@ -60,7 +60,7 @@
 7. **启动 Eclipse**  
    双击 Eclipse 图标启动软件，点击`Browse`按钮设置工作区的目录（可以不做更改），勾选`Use this as the default and do not ask again`选项设置为默认目录，点击`Launch`按钮进入软件主页，软件功能正常说明安装成功。操作如图：
 <p align="center">
-  <img src="../../image/Eclipse%20Installation%20Diagram/P7png" width="80%">
+  <img src="../../image/Eclipse%20Installation%20Diagram/P7.png" width="80%">
 </p>
 <p align="center">
   <img src="../../image/Eclipse%20Installation%20Diagram/P8.png" width="80%">
