@@ -41,7 +41,7 @@
 </p>
 
 5. **测试 Spark 运行**  
-   在`Master`上依次输入`spark-submit \`、`--class org.apache.spark.examples.SparkPi \`、`--master yarn \`、`--deploy-mode cluster \`、`/home/user/Spark/examples/jars/spark-examples_2.12-3.5.7.jar \`和`10`运行测试，使用`yarn logs -applicationId application_******`查看 Spark 的日志结果是否正常。操作如图：  
+   在`Master`上依次输入`spark-submit \`、`--class org.apache.spark.examples.SparkPi \`、`--master yarn \`、`--deploy-mode cluster \`、`/home/user/spark/examples/jars/spark-examples_2.12-3.5.7.jar \`和`10`运行测试，使用`yarn logs -applicationId application_******`查看 Spark 的日志结果是否正常。操作如图：  
    **注：**
    将`yarn logs -applicationId application_******`中的`******`换为实际的地址。
 <p align="center">
