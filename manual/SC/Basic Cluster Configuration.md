@@ -86,7 +86,7 @@
 </p>
 
 8. **检查 hosts 文件**  
-   在`Master`服务器中，点击左上角状态栏，再点击`终端`图标进入终端界面。在`终端`里面输入`su`并输入密码（密码不会显示出来，需要盲输）进入Root 用户模式，再输入`cat /etc/hosts`查询 hosts 文件信息，确认输出的 hosts 文件与，完成后输入`exit`退出 Root 用户模式。其他两台服务器子机也执行相同操作，进行 hosts 文件配置。操作如图：
+   分别在`Master`、`Slave1`和`Slave2`服务器中，点击左上角状态栏，再点击`终端`图标进入终端界面。在`终端`里面输入`su`并输入密码（密码不会显示出来，需要盲输）进入 Root 用户模式，再输入`cat /etc/hosts`查询 hosts 文件信息，确认输出的 hosts 文件与，完成后输入`exit`退出 Root 用户模式。操作如图：
 <p align="center">
   <img src="../../image/Basic%20Cluster%20Configuration%20Diagram/P19.png" width="80%">
 </p>
