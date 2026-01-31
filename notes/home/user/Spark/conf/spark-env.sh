@@ -7,7 +7,7 @@ export JAVA_HOME=/usr/java/jdk-11.0.29
 ########################
 # Spark 基本路径
 ########################
-export SPARK_HOME=/home/user/Spark
+export SPARK_HOME=/home/user/spark
 export SPARK_CONF_DIR=$SPARK_HOME/conf
 export SPARK_LOG_DIR=$SPARK_HOME/logs
 export SPARK_PID_DIR=$SPARK_HOME/pids
