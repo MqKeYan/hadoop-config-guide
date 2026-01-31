@@ -27,7 +27,7 @@
 </p>
 
 3. **文件夹重命名**  
-   输入`mv spark-3.5.7-bin-hadoop3 Spark`将文件夹重命名为`Spark`，使用`ls`确认重命名是否成功,出现例如`Spark`的文件夹说明成功。操作如图：  
+   输入`mv spark-3.5.7-bin-hadoop3 spark`将文件夹重命名为`spark`，使用`ls`确认重命名是否成功,出现例如`spark`的文件夹说明成功。操作如图：  
 <p align="center">
   <img src="../../image/Spark%20Installation%20Diagram/P3.png" width="60%">
 </p>
