@@ -74,14 +74,14 @@
   分别将 Xshell 与 Xftp 连接至服务器，为后续操作做准备。具体步骤请参考[Xshell 与 Xftp 配置详情](manual/SC/Xshell%20and%20Xftp%20Configuration.md)。
 - **文件导入**  
   使用Xftp将`Hadoop`、`Spark`和`Java`等的压缩包传入服务器主机的根目录。具体步骤请参考[文件导入详情](manual/SC/Data%20Import.md)。
+- **防火墙配置**  
+  在服务器主机上配置防火墙规则，保证集群之间的正常连通。具体步骤请参考[防火墙配置详情](manual/SC/Firewall%20Configuration.md)。
 - **SSH 配置**  
   通过配置 SSH 可以实现服务器之间的 SSH 无密码登录，简化集群管理操作流程同时提高运维效率。具体步骤请参考[SSH 配置详情](manual/SC/SSH%20Configuration.md)。
 - **Java 配置**  
   分别在各个服务器上安装好 Java 环境，为后续操作做准备。具体步骤请参考[Java 配置详情](manual/SC/Java%20Configuration.md)。
 - **Eclipse 安装**  
   在服务器主机上安装 Eclipse 集成开发环境，用于后续 Hadoop 与 Spark 项目的开发、调试与运行。具体步骤请参考[Eclipse 安装详情](manual/SC/Eclipse%20Installation.md)。
-- **防火墙配置**  
-  在服务器主机上配置防火墙规则，保证集群之间的正常连通。具体步骤请参考[防火墙配置详情](manual/SC/Firewall%20Configuration.md)。
 
 ## Hadoop 集群搭建
 
