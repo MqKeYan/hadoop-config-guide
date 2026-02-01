@@ -67,11 +67,17 @@
     </property>
     
     <!-- HDFS 校验 -->
-    <!-- 更快的校验算法，大文件读写时 CPU 开销更低 -->
+    <!-- 更快的校验算法，使用硬件加速，大文件读写时 CPU 开销更低 -->
     <property>
         <name>dfs.checksum.type</name>
         <value>CRC32C</value>
     </property>
-    
+
+    <!-- 回收站功能启用 -->
+    <!-- HDFS rm 实际变成软删除，回收站保留一定时间，可以规定时间内恢复文件 -->
+    <property>
+        <name>fs.trash.interval</name>
+        <value>1440</value>
+    </property>
     
 </configuration>
