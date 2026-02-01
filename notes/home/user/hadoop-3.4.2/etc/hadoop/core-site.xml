@@ -1,26 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
 <configuration>
     <!-- HDFS 的访问入口（NameNode RPC 地址） -->
+    <!-- 所有 Hadoop / Spark / Hive 等客户端的统一 HDFS 入口，Spark on YARN、Hive Metastore 等会自动读取此配置 -->
     <property>
         <name>fs.defaultFS</name>
         <value>hdfs://Master:9000</value>
     </property>
-    <!-- Hadoop 临时数据目录（非常重要） -->
+    
+    <!-- NameNode、DataNode、YARN、MR 等的临时数据存储根目录 -->
+    <!-- 注意将 user 改为实际的用户名，同时记得创建对应文件夹。如果这个目录权限或者磁盘异常，那么整个 Hadoop 集群都会运行不了 -->
     <property>
         <name>hadoop.tmp.dir</name>
-        <value>/home/user/hadoopdata</value>  #注意user改为实际用户名
+        <value>/home/user/hadoopdata</value>
     </property>
+    
     <!-- HDFS 客户端操作的默认权限 -->
+    <!-- 允许 user 用户“代理”其他用户访问 HDFS，HiveServer2、Spark Thrift Server 依赖该配置。教学环境设置 * 为了方便调试，生产环境请根据实际情况进行限制，hosts 只写运行服务的机器，groups 只写真实业务用户组 -->
     <property>
         <name>hadoop.proxyuser.user.hosts</name>
-        <value>*</value>  #教学环境设置*方便调试，生产环境请根据实际情况进行限制，防止安全隐患
+        <value>*</value>
     </property>
+    
     <property>
         <name>hadoop.proxyuser.user.groups</name>
-        <value>*</value>  #教学环境设置*方便调试，生产环境请根据实际情况进行限制，防止安全隐患
+        <value>*</value>
     </property>
-    <!-- IO 缓冲区大小（性能优化） -->
+    
+    <!-- IO 缓冲区 -->
+    <!-- 根据集群的实际规模设置字节，教学环境 256KB 足够。数值过小性能降低，数值过大占用内存，推荐 buffer size × 并发读写数 ≤ 可接受的内存占用 -->
     <property>
         <name>io.file.buffer.size</name>
-        <value>131072</value>  #根据集群的实际规模设置字节，教学环境 128KB 足够。数值过小性能降低，数值过大占用内存。
+        <value>262144</value>
     </property>
+    
+    <!-- RPC 通信稳定性 -->
+    <!-- 防止网络抖动导致 HDFS / YARN 客户端假死，Spark 作业、Hive 查询稳定性明显提升 -->
+    <!-- 客户端连接服务端单次连接最多等待时间，单位毫秒 -->
+    <property>
+        <name>ipc.client.connect.timeout</name>
+        <value>6000</value>
+    </property>
+
+    <!-- 当连接失败后，客户端最多重试次数 -->
+    <property>
+        <name>ipc.client.connect.max.retries</name>
+        <value>3</value>
+    </property>
+    
+    <!-- HDFS Socket 超时控制 -->
+    <!-- 控制 Socket 最长等待时间，单位毫秒。避免 HDFS 客户端长时间等待 DataNode 无响应 -->
+    <property>
+        <name>dfs.client.socket-timeout</name>
+        <value>60000</value>
+    </property>
+    
+    <!-- 压缩编解码支持 -->
+    <!-- HDFS 层支持多种压缩格式 -->
+    <property>
+        <name>io.compression.codecs</name>
+        <value>
+            org.apache.hadoop.io.compress.DefaultCodec,
+            org.apache.hadoop.io.compress.GzipCodec,
+            org.apache.hadoop.io.compress.SnappyCodec
+        </value>
+    </property>
+    
+    <!-- HDFS 校验 -->
+    <!-- 更快的校验算法，大文件读写时 CPU 开销更低 -->
+    <property>
+        <name>dfs.checksum.type</name>
+        <value>CRC32C</value>
+    </property>
+    
+    
 </configuration>
