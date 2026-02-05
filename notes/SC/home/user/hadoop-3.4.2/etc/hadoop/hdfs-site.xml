@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <configuration>
-
     <!-- HDFS 副本数 -->
     <!-- 每个 HDFS Block 保存 n 份，可容忍 n-1 台 DataNode 宕机，n 值根据实际集群情况设置 -->
     <property>
@@ -44,7 +43,6 @@
         <value>Master:9000</value>
     </property>
     
-    
     <!-- DataNode 最大并发传输线程 -->
     <!-- 默认值为4096，数值过低可能出现在高并发下出现 “连接超时” 或 “DataNode 拒绝连接”，而数值过高会导致性能下降 -->
     <property>
@@ -57,6 +55,32 @@
     <property>
         <name>dfs.namenode.handler.count</name>
         <value>100</value>
+    </property>
+
+    <!-- HDFS 心跳与失效判定 -->
+    <!-- 心跳 3 秒一次，5 分钟未响应判定节点异常，提升集群稳定性与故障感知速度 -->
+    <property>
+        <name>dfs.heartbeat.interval</name>
+        <value>3</value>
+    </property>
+
+    <property>
+        <name>dfs.namenode.heartbeat.recheck-interval</name>
+        <value>300000</value>
+    </property>
+
+    <!-- HDFS 安全模式控制 -->
+    <!-- 控制 NameNode 退出安全模式的副本比例，防止副本不足时误写数据 -->
+    <property>
+        <name>dfs.namenode.safemode.threshold-pct</name>
+        <value>0.99</value>
+    </property>
+    
+    <!-- HDFS 访问性能优化 -->
+    <!-- 控制 HDFS 客户端预先从 DataNode 加载的数据量，顺序读性能提升 -->
+    <property>
+        <name>dfs.client.read.prefetch.size</name>
+        <value>4194304</value>
     </property>
     
     
