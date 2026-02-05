@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<configuration>
+    <!-- MapReduce 运行模式 -->
+    <!-- MapReduce 的作业默认运行在 YARN 上，这是 Hadoop 3.x 集群模式下运行 MapReduce 的必备设置，也保证后续其他模块能无缝使用集群资源 -->
+    <property>
+        <name>mapreduce.framework.name</name>
+        <value>yarn</value>
+    </property>
+    
+    <!-- JobHistory Server 地址 -->
+    <!-- MapReduce 作业完成后的元数据、计数器存储，历史任务追踪的核心服务。根据实际主机名称编辑注意大小写 -->
+    <property>
+        <name>mapreduce.jobhistory.address</name>
+        <value>Master:10020</value>
+    </property>
+    
+    <!-- JobHistory Web UI -->
+    <!-- 浏览器访问历史 MR 作业，日志跳转依赖该 Web UI。根据实际主机名称编辑注意大小写 -->
+    <property>
+        <name>mapreduce.jobhistory.webapp.address</name>
+        <value>Master:19888</value>
+    </property>
+
+    <!-- Map / Reduce 任务资源配置 -->
+    <!-- 控制 Map / Reduce 容器内存，防止默认值过小导致频繁 OOM，与 YARN container 资源配置强关联.单位为 MB -->
+    <property>
+        <name>mapreduce.map.memory.mb</name>
+        <value>2048</value>
+    </property>
+    <property>
+        <name>mapreduce.reduce.memory.mb</name>
+        <value>3072</value>
+    </property>
+
+    <!-- JVM Heap 设置 -->
+    <!-- 明确 JVM Heap 使用上限，避免 JVM 使用超过 container memory。JVM Heap ≈ Container Memory × 0.7 ~ 0.8，单位为 MB -->
+    <property>
+        <name>mapreduce.map.java.opts</name>
+        <value>-Xmx1536m</value>
+    </property>
+    <property>
+        <name>mapreduce.reduce.java.opts</name>
+        <value>-Xmx2304m</value>
+    </property>
+
+    <!-- Map / Reduce CPU 核心数 -->
+    <!-- 精确控制任务 CPU 使用，防止单个 Reduce 拖垮 NodeManager -->
+    <property>
+        <name>mapreduce.map.cpu.vcores</name>
+        <value>1</value>
+    </property>
+
+    <property>
+        <name>mapreduce.reduce.cpu.vcores</name>
+        <value>2</value>
+    </property>
+    
+    
+</configuration>
