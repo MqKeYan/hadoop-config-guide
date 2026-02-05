@@ -1,9 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
 <configuration>
+
     <!-- HDFS 副本数 -->
+    <!-- 每个 HDFS Block 保存 n 份，可容忍 n-1 台 DataNode 宕机，n 值根据实际集群情况设置 -->
     <property>
-        <name>dfs.replication</name>	
-        <value>2</value>  #副本数需要小于或者等于节点数量，而可容忍的宕机数 = dfs.replication - 1，但是副本数越高占用的磁盘越多，越能保证数据的容错。教学环境中 3 节点设置 2 副本既能保证最基本数据容错，又不会浪费存储空间。
+        <name>dfs.replication</name>
+        <value>2</value>
     </property>
+    
+    <!-- NameNode 元数据存储目录 -->
+    <!-- 存储 fsimage / edits 等核心元数据，记得将/user/改为实际的用户名，同时还要创建对应的文件夹 -->
+    <property>
+        <name>dfs.namenode.name.dir</name>
+        <value>/home/user/hadoopdata/hdfs/namenode</value>
+    </property>
+    
+    
     <!-- NameNode 元数据存储目录 -->
     <property>
         <name>dfs.namenode.name.dir</name>
