@@ -53,7 +53,7 @@
     </property>
     
     <!-- NameNode 并发处理能力 -->
-    <!-- 决定 NameNode 同时处理客户端请求的能力，对 Spark / Hive 并发访问 HDFS 很重要 -->
+    <!-- 决定 NameNode 同时处理客户端请求的能力 -->
     <property>
         <name>dfs.namenode.handler.count</name>
         <value>100</value>
