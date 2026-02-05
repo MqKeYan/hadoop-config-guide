@@ -1,4 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
+
 <configuration>
 
     <!-- HDFS 副本数 -->
@@ -9,23 +10,21 @@
     </property>
     
     <!-- NameNode 元数据存储目录 -->
-    <!-- 存储 fsimage / edits 等核心元数据，记得将/user/改为实际的用户名，同时还要创建对应的文件夹 -->
+    <!-- 存储 fsimage / edits 等核心元数据。记得将目录中的/user/改为实际的用户名，同时还要创建对应的文件夹 -->
     <property>
         <name>dfs.namenode.name.dir</name>
         <value>/home/user/hadoopdata/hdfs/namenode</value>
     </property>
     
-    
-    <!-- NameNode 元数据存储目录 -->
-    <property>
-        <name>dfs.namenode.name.dir</name>
-        <value>/home/user/hadoopdata/hdfs/namenode</value>  #目录可以自行修改，记得要创建对应目录
-    </property>
     <!-- DataNode 数据块存储目录 -->
+    <!-- 实际 HDFS Block 的物理存储位置，可配置多个目录，支持后期磁盘扩展。记得将目录中的/user/改为实际的用户名，同时还要创建对应的文件夹 -->
     <property>
         <name>dfs.datanode.data.dir</name>
         <value>/home/user/hadoopdata/hdfs/datanode</value>  #目录可以自行修改，记得要创建对应目录
     </property>
+
+
+    
     <!-- Web UI 访问权限 -->
     <property>
         <name>dfs.permissions.enabled</name>
