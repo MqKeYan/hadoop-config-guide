@@ -50,11 +50,66 @@
         <name>mapreduce.map.cpu.vcores</name>
         <value>1</value>
     </property>
-
     <property>
         <name>mapreduce.reduce.cpu.vcores</name>
         <value>2</value>
     </property>
+
+    <!-- 中间结果压缩 -->
+    <!-- Map → Reduce 网络传输数据压缩，显著降低 Shuffle 网络 IO -->
+    <property>
+        <name>mapreduce.map.output.compress</name>
+        <value>true</value>
+    </property>
+    <property>
+        <name>mapreduce.map.output.compress.codec</name>
+        <value>org.apache.hadoop.io.compress.SnappyCodec</value>
+    </property>
     
+    <!-- Reduce Shuffle 并发控制 -->
+    <!-- Reduce 同时拉取 Map 输出的线程数，提高大规模 Shuffle 阶段效率 -->
+    <property>
+        <name>mapreduce.reduce.shuffle.parallelcopies</name>
+        <value>10</value>
+    </property>
+
+    <!-- JobHistory 日志存储位置 -->
+    <!-- MR 历史作业信息存储到 HDFS，与 yarn.log-aggregation-enable 完美配合。需要先启动 HDFS 后再创建对应的目录 -->
+    <property>
+        <name>mapreduce.jobhistory.done-dir</name>
+        <value>/mr-history/done</value>
+    </property>
+    <property>
+        <name>mapreduce.jobhistory.intermediate-done-dir</name>
+        <value>/mr-history/tmp</value>
+    </property>
+
+    <!-- JobHistory 日志清理 -->
+    <!-- mapreduce.jobhistory.cleaner.interval-ms设置清理线程的周期，mapreduce.jobhistory.max-age-ms设置删除历史作业的周期 -->
+    <property>
+        <name>mapreduce.jobhistory.cleaner.enable</name>
+        <value>true</value>
+    </property>
+    <property>
+        <name>mapreduce.jobhistory.cleaner.interval-ms</name>
+        <value>86400000</value>
+    </property>
+    <property>
+        <name>mapreduce.jobhistory.max-age-ms</name>
+        <value>604800000</value>
+    </property>
+
+    <!-- 作业提交与恢复稳定性 -->
+    <!-- JobHistory Server 重启后恢复任务信息，提高系统稳定性 -->
+    <property>
+        <name>mapreduce.jobtracker.restart.recover</name>
+        <value>true</value>
+    </property>
     
+    <!-- 本地目录配置 -->
+    <!-- MapReduce 本地中间数据目录，减轻系统 /tmp 压力。需要先启动 HDFS 后再创建对应的目录 -->
+    <property>
+        <name>mapreduce.cluster.local.dir</name>
+        <value>/home/user/hadoopdata/mapred/local</value>
+    </property>
 </configuration>
