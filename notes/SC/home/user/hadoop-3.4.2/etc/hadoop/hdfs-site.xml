@@ -77,11 +77,24 @@
     </property>
     
     <!-- HDFS 访问性能优化 -->
-    <!-- 控制 HDFS 客户端预先从 DataNode 加载的数据量，顺序读性能提升 -->
+    <!-- 控制 HDFS 客户端预先从 DataNode 加载的数据量，提升顺序读性能 -->
     <property>
         <name>dfs.client.read.prefetch.size</name>
         <value>4194304</value>
     </property>
-    
+
+    <!-- 磁盘容量预警阈值 -->
+    <!-- 给 DataNode 预留磁盘空间，防止磁盘被 HDFS 写满而直接把节点卡死 -->
+    <property>
+        <name>dfs.datanode.du.reserved</name>
+        <value>5368709120</value>
+    </property>
+
+    <!-- DataNode 磁盘损坏控制 -->
+    <!-- 允许一个 DataNode 上磁盘目录损坏的数量  -->
+    <property>
+        <name>dfs.datanode.failed.volumes.tolerated</name>
+        <value>0</value>
+    </property>
     
 </configuration>
