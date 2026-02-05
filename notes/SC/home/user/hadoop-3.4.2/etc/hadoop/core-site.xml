@@ -35,8 +35,7 @@
     </property>
     
     <!-- RPC 通信稳定性 -->
-    <!-- 防止网络抖动导致 HDFS / YARN 客户端假死，Spark 作业、Hive 查询稳定性明显提升 -->
-    <!-- 客户端连接服务端单次连接最多等待时间，单位毫秒 -->
+    <!-- 客户端连接服务端单次连接最多等待时间，单位毫秒，防止网络抖动导致 HDFS / YARN 客户端假死 -->
     <property>
         <name>ipc.client.connect.timeout</name>
         <value>6000</value>
