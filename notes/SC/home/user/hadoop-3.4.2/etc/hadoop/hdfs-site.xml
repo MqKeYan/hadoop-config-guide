@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<configuration>
+
+    <!-- HDFS 副本数 -->
+    <!-- 每个 HDFS Block 保存 n 份，可容忍 n-1 台 DataNode 宕机，n 值根据实际集群情况设置 -->
+    <property>
+        <name>dfs.replication</name>
+        <value>2</value>
+    </property>
+    
+    <!-- NameNode 元数据存储目录 -->
+    <!-- 存储 fsimage / edits 等核心元数据。记得将目录中的/user/改为实际的用户名，同时还要创建对应的文件夹 -->
+    <property>
+        <name>dfs.namenode.name.dir</name>
+        <value>/home/user/hadoopdata/hdfs/namenode</value>
+    </property>
+    
+    <!-- DataNode 数据块存储目录 -->
+    <!-- 实际 HDFS Block 的物理存储位置，可配置多个目录，支持后期磁盘扩展。记得将目录中的/user/改为实际的用户名，同时还要创建对应的文件夹 -->
+    <property>
+        <name>dfs.datanode.data.dir</name>
+        <value>/home/user/hadoopdata/hdfs/datanode</value>  #目录可以自行修改，记得要创建对应目录
+    </property>
+    
+    <!-- HDFS 权限控制 -->
+    <!-- 教学环境为了方便使用选择 false 关闭了权限限制，生产环境一定要设置 True 开启权限管理 -->
+    <property>
+        <name>dfs.permissions.enabled</name>
+        <value>false</value>
+    </property>
+    
+    <!-- NameNode Web UI 地址 -->
+    <!-- 在集群中需要设置 Master（注意主机名大小写要一致）或者对应的 IP 地址方便管理，Hadoop3.x 的默认端口为 9870，可通过浏览器查看 HDFS 状态、容量、节点 -->
+    <property>
+        <name>dfs.namenode.http-address</name>
+        <value>Master:9870</value>
+    </property>
+
+    <!-- NameNode RPC 服务地址 -->
+    <!-- 明确指定 NameNode RPC 端口，Spark / Hive / HDFS Client 等都依赖该端口 -->
+    <property>
+        <name>dfs.namenode.rpc-address</name>
+        <value>Master:9000</value>
+    </property>
+    
+    
+    <!-- DataNode 最大并发传输线程 -->
+    <!-- 默认值为4096，数值过低可能出现在高并发下出现 “连接超时” 或 “DataNode 拒绝连接”，而数值过高会导致性能下降 -->
+    <property>
+        <name>dfs.datanode.max.transfer.threads</name>
+        <value>2048</value>
+    </property>
+    
+    <!-- NameNode 并发处理能力 -->
+    <!-- 决定 NameNode 同时处理客户端请求的能力 -->
+    <property>
+        <name>dfs.namenode.handler.count</name>
+        <value>100</value>
+    </property>
+    
+    
+</configuration>
