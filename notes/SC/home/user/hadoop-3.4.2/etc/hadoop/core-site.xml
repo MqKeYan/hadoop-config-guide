@@ -61,7 +61,8 @@
         <value>
             org.apache.hadoop.io.compress.DefaultCodec,
             org.apache.hadoop.io.compress.GzipCodec,
-            org.apache.hadoop.io.compress.SnappyCodec
+            org.apache.hadoop.io.compress.SnappyCodec,
+            org.apache.hadoop.io.compress.Lz4Codec
         </value>
     </property>
     
@@ -78,5 +79,4 @@
         <name>fs.trash.interval</name>
         <value>1440</value>
     </property>
-    
 </configuration>
