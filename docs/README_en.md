@@ -151,13 +151,16 @@ The version information listed above is accurate as of **December 24, 2025**.
   Submit example Spark applications or real data analysis tasks to verify the interoperability between Spark and Hadoop clusters. Monitor job execution through the YARN Web UI to ensure that the Spark environment is stable and operational.  
   Refer to: [Spark Validation Guide](manual/EN/Spark%20Validation.md)
 
-## Discussion and Communication
+## Discussion & Communication
 
-If you encounter any issues during the installation process, feel free to open a discussion in the issue section.  
-Likewise, if you have solutions or suggestions for improvement, you are very welcome to share them and help improve this tutorial together!
+If you encounter any issues during the installation process, feel free to start a discussion in the issue section.  
+If you have relevant solutions or suggestions for improvement, you are also very welcome to share them to help me further improve this tutorial.  
+If you encounter any problems during installation or usage, you are welcome to start a discussion in [GitHub Issues](../../issues).
 
-Please feel free to report issues, provide feedback, or suggest improvements on GitHub:  
-[Issue Tracker](../../issues)
+## Code of Conduct
+
+This project adheres to the **Contributor Covenant Code of Conduct**.  
+We are committed to providing an open, friendly, and respectful community environment. If you encounter any inappropriate behavior, please refer to the [CODE_OF_CONDUCT.md](./CODE_OF_CONDUCT.md) file in this repository.
 
 ## License
 
