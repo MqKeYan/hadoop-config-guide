@@ -109,14 +109,14 @@
 
 ## 讨论与交流
 
-如果你在安装过程中遇到任何问题，欢迎在议题区发布讨论。如果你有相应的解决方法或改进建议，也非常欢迎分享出来，帮助我一起完善这份教程！  
-如果你在安装或使用过程中遇到任何问题，欢迎在 **[GitHub Issues](../../issues)** 中发起讨论。 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;如果你在安装过程中遇到任何问题，欢迎在议题区发布讨论。如果你有相应的解决方法或改进建议，也非常欢迎分享出来，帮助我一起完善这份教程！  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;如果你在安装或使用过程中遇到任何问题，欢迎在 **[GitHub Issues](../../issues)** 中发起讨论。 
 
 ## 行为准则
 
-本项目遵循 **Contributor Covenant Code of Conduct**。  
-我们致力于营造一个开放、友好、互相尊重的社区环境，如遇不当行为，请参考仓库中的 [`CODE_OF_CONDUCT.md`](./CODE_OF_CONDUCT.md)。
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;本项目遵循 **Contributor Covenant Code of Conduct**。  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;我们致力于营造一个开放、友好、互相尊重的社区环境，如遇不当行为，请参考仓库中的 [`CODE_OF_CONDUCT.md`](./CODE_OF_CONDUCT.md)。
 
 ## 许可证
 
-本项目采用 **Apache License 2.0** 开源许可证。
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;本项目采用 **Apache License 2.0** 开源许可证。
