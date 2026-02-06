@@ -110,7 +110,7 @@
 ## 讨论与交流
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;如果你在安装过程中遇到任何问题，欢迎在议题区发布讨论。如果你有相应的解决方法或改进建议，也非常欢迎分享出来，帮助我一起完善这份教程！  
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;如果你在安装或使用过程中遇到任何问题，欢迎在 **[GitHub Issues](../../issues)** 中发起讨论。 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;如果你在安装或使用过程中遇到任何问题，欢迎在[GitHub Issues](../../issues)中发起讨论。 
 
 ## 行为准则
 
