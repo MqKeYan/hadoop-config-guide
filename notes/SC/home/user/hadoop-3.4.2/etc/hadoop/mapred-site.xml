@@ -26,22 +26,22 @@
     <!-- 控制 Map / Reduce 容器内存，防止默认值过小导致频繁 OOM，与 YARN container 资源配置强关联.单位为 MB -->
     <property>
         <name>mapreduce.map.memory.mb</name>
-        <value>2048</value>
+        <value>512</value>
     </property>
     <property>
         <name>mapreduce.reduce.memory.mb</name>
-        <value>3072</value>
+        <value>1024</value>
     </property>
 
     <!-- JVM Heap 设置 -->
     <!-- 明确 JVM Heap 使用上限，避免 JVM 使用超过 container memory。JVM Heap ≈ Container Memory × 0.7 ~ 0.8，单位为 MB -->
     <property>
         <name>mapreduce.map.java.opts</name>
-        <value>-Xmx1536m</value>
+        <value>-Xmx384m</value>
     </property>
     <property>
         <name>mapreduce.reduce.java.opts</name>
-        <value>-Xmx2304m</value>
+        <value>-Xmx768m</value>
     </property>
 
     <!-- Map / Reduce CPU 核心数 -->
