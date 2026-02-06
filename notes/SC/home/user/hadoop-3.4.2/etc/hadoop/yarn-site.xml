@@ -91,4 +91,63 @@
         <name>yarn.nodemanager.resource.cpu-vcores</name>
         <value>2</value>
     </property>
+
+    <!-- Container 资源分配粒度 -->
+    <!-- 控制单个 Container 的资源上下限，防止单任务抢光整台机器 -->
+    <property>
+        <name>yarn.scheduler.minimum-allocation-mb</name>
+        <value>512</value>
+    </property>
+    <property>
+        <name>yarn.scheduler.maximum-allocation-mb</name>
+        <value>2048</value>
+    </property>
+    <property>
+        <name>yarn.scheduler.minimum-allocation-vcores</name>
+        <value>1</value>
+    </property>
+    <property>
+        <name>yarn.scheduler.maximum-allocation-vcores</name>
+        <value>2</value>
+    </property>
+
+    <!-- 内存安全检查 -->
+    <!-- 关闭虚拟内存检查，避免 Spark 被误杀，保留物理内存检查，防止真正 OOM -->
+    <property>
+        <name>yarn.nodemanager.vmem-check-enabled</name>
+        <value>false</value>
+    </property>
+    <property>
+        <name>yarn.nodemanager.pmem-check-enabled</name>
+        <value>true</value>
+    </property>
+
+    <!-- NodeManager 本地目录 -->
+    <!-- YARN 容器本地数据、日志独立存放，需要先启动 HDFS 后再创建对应的目录 -->
+    <property>
+        <name>yarn.nodemanager.local-dirs</name>
+        <value>/home/user/hadoopdata/yarn/local</value>
+    </property>
+    <property>
+        <name>yarn.nodemanager.log-dirs</name>
+        <value>/home/user/hadoopdata/yarn/logs</value>
+    </property>
+
+    <!-- Scheduler 类型 -->
+    <!-- 支持多队列资源隔离， 为后续 capacity-scheduler.xml 做准备 -->
+    <property>
+        <name>yarn.resourcemanager.scheduler.class</name>
+        <value>org.apache.hadoop.yarn.server.resourcemanager.scheduler.capacity.CapacityScheduler</value>
+    </property>
+    
+    <!-- ApplicationMaster 资源 -->
+    <!-- 控制 MR ApplicationMaster 内存，避免 AM 成为系统瓶颈 -->
+    <property>
+        <name>yarn.app.mapreduce.am.resource.mb</name>
+        <value>1024</value>
+    </property>
+    <property>
+        <name>yarn.app.mapreduce.am.command-opts</name>
+        <value>-Xmx768m</value>
+    </property>
 </configuration>
