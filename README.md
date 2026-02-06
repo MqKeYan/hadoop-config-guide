@@ -115,7 +115,7 @@
 ## 行为准则
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;本项目遵循 **Contributor Covenant Code of Conduct**。  
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;我们致力于营造一个开放、友好、互相尊重的社区环境，如遇不当行为，请参考仓库中的 [`CODE_OF_CONDUCT.md`](./CODE_OF_CONDUCT.md)。
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;我们致力于营造一个开放、友好、互相尊重的社区环境，如遇不当行为，请参考仓库中的 [CODE_OF_CONDUCT.md](./CODE_OF_CONDUCT.md)。
 
 ## 许可证
 
